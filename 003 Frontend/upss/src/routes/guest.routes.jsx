@@ -1,5 +1,5 @@
 import React from "react";
-import LoadingPage from "../components/LoadingPage";
+import LoadingPage from "../components/common/LoadingPage";
 import NotFound from "../pages/notfound";
 
 const Home = React.lazy(() => import("../pages/guest/home"));

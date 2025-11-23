@@ -1,5 +1,5 @@
 import React from "react";
-import LoadingPage from "../components/LoadingPage";
+import LoadingPage from "../components/common/LoadingPage";
 import NotFound from "../pages/notfound";
 
 const AdminLayout = React.lazy(() => import("../layouts/admin/AdminLayout"));
