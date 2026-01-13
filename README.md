@@ -4,13 +4,13 @@
 </div>
 
 ## Contents
-- [<code>Introduce</code>](#-INTRODUCE)
-- [<code>Power Supply Design for An Industrial Plant</code>](#-music-management)
-- [<code>Control Panel Design</code>](#-playlist-management)
-- [<code>SCADA for Power System</code>](#-controls)
-- [<code>Demonstration</code>](#-configuration)
-- [<code>Requirements</code>](#-cache)
-- [<code>References</code>](#-update)
+- [Introduce](#introdue)
+- [Power Supply Design for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
+- [Control Panel Design](#control-panel-design)
+- [SCADA for Power System](#scada-for-power-system)
+- [Demonstration](#demonstration)
+- [Requirements](#requirements)
+- [References](#references)
 
 # INTRODUCE
 $${\color{#AC3097}Install \space \color{#56565E}Retro}$$ 
