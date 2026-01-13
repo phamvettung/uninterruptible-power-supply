@@ -275,7 +275,17 @@
 </div>
 
 # DEMONSTRATION
-[![Mobile Demo](assets/youtube-icon.png)](https://youtu.be/s6uQ-MICRmE)
+
+
+<div>
+
+<p align="center">
+  <a href="https://youtu.be/s6uQ-MICRmE">
+    <img src="assets/youtube-icon.png" width="300" alt="PC Demo">
+  </a>
+</p>
+ 
+</div>
 
 
 
