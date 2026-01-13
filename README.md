@@ -223,8 +223,8 @@
 </p>
 
 <h3>3. Authentication, Authorization and Security</h3>
-<p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework sử dụng ngôn ngữ lập trình JAVA. Bên phía Frontend (Client) được xây dựng trên thư viện ReactJS để tạo giao diện người dùng.</p>
+<p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc. Based on Spring Security JWT.</p>
+<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. Các request từ Client đều được xác thực thông qua JWT Token</p>
 <p align="center">
   <img src="assets/security.PNG" alt="hi" width="540" height="840">
 </p>
