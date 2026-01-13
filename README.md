@@ -260,6 +260,13 @@
   <img src="assets/power_supply_diagram.PNG" alt="hi" width="840" height="540">
 </p>
 
+<h3>7. Real-time Trend</h3>
+<p>The Real-time Trend page displays an energy chart..</p>
+<p>Trang Real-time Trend hiển thị biểu đồ năng lượng.</p>
+<p align="center">
+  <img src="assets/real_time_trend.PNG" alt="hi" width="840" height="540">
+</p>
+
 </div>
 
 
