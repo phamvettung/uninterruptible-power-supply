@@ -231,10 +231,20 @@
 
 <h3>4. PLC to Server Protocol</h3>
 <p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
-<p>Một bước điện gồm các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách.</p>
+<p>Một bước điện gồm các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách các thông điệp với nhau.</p>
 <p align="center">
   <img src="assets/plc_api_spec.jpg" alt="hi" width="840" height="540">
 </p>
+
+<h3>5. Server to User Protocol</h3>
+<p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
+<p>Một bước điện gồm các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách các thông điệp với nhau.</p>
+```sh
+wget https://github.com/XORbit01/retro/releases/download/v0.0.46/installer.tar.gz
+tar -xvf installer.tar.gz
+chmod +x installer.sh
+./installer.sh
+```
 
 </div>
 
