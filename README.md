@@ -277,7 +277,7 @@
 # DEMONSTRATION
 <p align="center">
   <video width="800" controls>
-    <source src="assets/mobile_demo.mp4" type="video/mp4">
+    <source src="assets/demo2.mp4" type="video/mp4">
   </video>
 </p>
 
