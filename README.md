@@ -237,7 +237,7 @@
 </p>
 
 <h3>5. Server to User Protocol</h3>
-<p>The messages sent and received between the server and the user are in the format of a JSON string as shown below.</p>
+<p>The messages sent and received between the server and the user are in the format of a JSON.</p>
 <p>Thông điệp để truyền và nhận dữ liệu giữa Server và User có định dạng là một chuỗi JSON.</p>
 
 ```sh
