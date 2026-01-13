@@ -25,7 +25,7 @@
 <p align="center">
   <img src="assets/electrical_calculation.jpg" alt="hi" width="800" height="400">
 </p>
-<h4>1. Calculate the selection of ACB, MCCB</h4>
+<h3>1. Calculate the selection of ACB, MCCB</h3>
  <table align="center">
   <thead>
     <tr>
@@ -162,7 +162,7 @@
     </tr>
   </tbody>
 </table>
- <h4>2. Principle diagram of the distribution station</h4>
+ <h3>2. Principle diagram of the distribution station</h3>
  <p>The distribution substation is designed with two 400kVA, Y/Y, 22/0.4kV transformers connected to busbars C1 and C2 via two circuit breakers (ACBs) 01 and 02. A connecting circuit breaker (ACB 03) is used to supply power to the remaining busbar in case of a fault, where one of the two circuit breakers disconnects the power.</p>
  <p>Trạm phân phối được thiết kế với 02 Máy biến áp 400kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1, C2 thông qua 02 máy cắt ACB 01, 02. Một máy cắt liên lạc ACB 03 được sử dụng để nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì hoặc thay thế MBA, 1 trong 2 ACB ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho nhóm phụ tải còn lại.</p>
  <p align="center">
@@ -174,31 +174,31 @@
 <div>
  <p>In this project, a PLC FX5UJ is used to control the switching on and off of 3 circuit breakers and to retrieve the on/off status of 3 ACBs and 6 MCCBs. The FX5 485ADP module is used to communicate with the electricity meters via the RS-485 protocol.</p>
  <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt và nhận tín hiệu trạng thái ON/OFF của 03 ACB và 06 MCCB. Module truyền thông RS-485 được sử dụng để kết nối với các đồng hồ đo điện để lấy dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
-<h4>1. Control Panel Layout</h4>
+<h3>1. Control Panel Layout</h3>
  <p align="center">
   <img src="assets/internal_cabinet_layout.PNG" alt="hi" width="840" height="540">
 </p>
- <h4>2. AC Power Distribution</h4>
+ <h3>2. AC Power Distribution</h3>
  <p align="center">
   <img src="assets/ac_power_distribution.PNG" alt="hi" width="840" height="540">
 </p>
-  <h4>3. DC Power Distribution</h4>
+  <h3>3. DC Power Distribution</h3>
  <p align="center">
   <img src="assets/dc_power_distribution.PNG" alt="hi" width="840" height="540">
 </p>
-<h4>4. Input Wiring</h4>
+<h3>4. Input Wiring</h3>
  <p align="center">
   <img src="assets/input_wiring.PNG" alt="hi" width="840" height="540">
 </p>
-<h4>5. Output Wiring</h4>
+<h3>5. Output Wiring</h3>
  <p align="center">
   <img src="assets/output_wiring.PNG" alt="hi" width="840" height="540">
 </p>
- <h4>6. Terminal to CBs</h4>
+ <h3>6. Terminal to CBs</h3>
  <p align="center">
   <img src="assets/terminal_to_devices.PNG" alt="hi" width="840" height="540">
 </p>
- <h4>7. Fx5 485ADP to Metters</h4>
+ <h3>7. Fx5 485ADP to Metters</h3>
  <p align="center">
   <img src="assets/fx485adp_to_meters.PNG" alt="hi" width="840" height="540">
 </p>
@@ -208,7 +208,7 @@
 <div>
   <p>A SCADA software was developed to control and monitor equipment remotely via a web browser. Energy data is collected automatically in real time. All the technologies used and communication protocols are presented below.</p>
  <p>Một phần mềm SCADA được phát triển để điều khiển, giám sát trạng thái của thiết bị từ xa thông qua trình duyệt web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả ngay bên dưới đây.</p>
-<h4>1. Diagram of Technology</h4>
+<h3>1. Diagram of Technology</h3>
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
  <p>Bộ điều khiển PLC giao tiếp với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị thông qua Module truyền thông RS-485 và các cổng vào ra số.</p>
 <p align="center">
