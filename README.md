@@ -22,7 +22,7 @@
 <div>
  <p>Design a power supply for an industrial enterprise comprising 6 workshops, with power sourced from a 22kV connection point. Maximum power usage time Tmax = 5100 hours. Type I and Type II loads account for 75%. Allowable voltage drop in the low-voltage network ΔUcp = 5%. The calculated data is shown below.</p>
 <p>Thiết kế hệ thống cấp điện cho một Xí nghiệp công nghiệp gồm 6 Phân xưởng, nguồn điện được lấy từ điểm đấu điện của lưới 22kV. Thời gian sử dụng công suất tối đa Tmax = 5100h. Phụ tải loại I, loại II chiếm 75%. Tổn hao điện áo cho phép trong mạng điện hạ thế ΔUcp = 5%. Các số liệu tính toán được thể hiện bên dưới đây.</p>
-<img src="assets/electrical_calculation.jpg" alt="hi" style="width: 500px;" >
+<img src="assets/electrical_calculation.jpg" alt="hi" style="width: 800px; height: 400px;" >
 </div>
 
 
