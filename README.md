@@ -276,7 +276,6 @@
 
 # DEMONSTRATION
 <div>
- <h3>1. Web app</h3>
  <p align="center">
   <video width="800" controls>
     <source src="assets/demo.mp4" type="video/mp4">
