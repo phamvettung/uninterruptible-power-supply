@@ -3,7 +3,7 @@
  <h3>ĐIỀU KHIỂN GIÁM SÁT VÀ THU THẬP DỮ LIỆU TRONG HỆ THỐNG ĐIỆN</h3>
 </div>
 
-## Content
+## Contents
 - [<code>Introduce</code>](#-installation)
 - [<code>Power Supply Design for An Industrial Plant</code>](#-music-management)
 - [<code>Control Panel Design</code>](#-playlist-management)
@@ -12,7 +12,7 @@
 - [<code>Requirements</code>](#-cache)
 - [<code>References</code>](#-update)
 
-## 📦 Installation
+# INTRODUCE
 $${\color{#AC3097}Install \space \color{#56565E}Retro}$$ 
 ```sh
 wget https://github.com/XORbit01/retro/releases/download/v0.0.46/installer.tar.gz
@@ -27,7 +27,7 @@ $${\color{#AC3097}Uninstall \space \color{#56565E}Retro}$$
 ~/.local/bin/uninstall_retro.sh
 ```
 
-## 🎮 Music Management
+# DESIGNING A POWER SUPPLY FOR AN INDUSTRIAL PLANT
 $${\color{#AC3097}Play \space \color{#56565E} Music}$$
 ```sh
 retro play "Despacito - Luis Fonsi"                      # you can search and play music by name
