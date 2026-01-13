@@ -275,11 +275,7 @@
 </div>
 
 # DEMONSTRATION
-<p align="center">
-  <video width="800" controls>
-    <source src="assets/demo3.mp4" type="video/mp4">
-  </video>
-</p>
+[![Mobile Demo](assets/power_supply_diagram.PNG)]([https://youtu.be/VIDEO_ID](https://youtu.be/s6uQ-MICRmE))
 
 
 
