@@ -275,13 +275,18 @@
 </div>
 
 # DEMONSTRATION
-
-
 <div>
 
 <p align="center">
   <a href="https://youtu.be/s6uQ-MICRmE">
     <img src="assets/youtube-icon.png" width="300" alt="PC Demo">
+  </a>
+</p>
+
+<h3>MOBILE FRIENDLY</h3>
+<p align="center">
+  <a href="https://youtube.com/shorts/Xq4Q5umekUE?feature=share">
+    <img src="assets/youtube-icon.png" width="300" alt="Mobile Demo">
   </a>
 </p>
  
