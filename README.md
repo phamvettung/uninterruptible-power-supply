@@ -205,6 +205,11 @@
 </div>
 
 # SUPERVISORY CONTROL AND DATA ACQUISITION FOR POWER SYSTEM
+<div>
+  <p>A SCADA software was developed to control and monitor equipment remotely via a web browser. Energy data is collected automatically in real time. All the technologies used and communication protocols are presented below.</p>
+ <p>Một phần mềm SCADA được phát triển để điều khiển, giám sát trạng thái của thiết bị từ xa thông qua trình duyệt web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả ngay bên dưới đây.</p>
+<h4>1. </h4>
+</div>
 
 
 
