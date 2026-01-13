@@ -237,14 +237,20 @@
 </p>
 
 <h3>5. Server to User Protocol</h3>
-<p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
-<p>Một bước điện gồm các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách các thông điệp với nhau.</p>
+<p>The messages sent and received between the server and the user are in the format of a JSON string as shown below.</p>
+<p>Thông điệp để truyền và nhận dữ liệu giữa Server và User có định dạng là một chuỗi JSON.</p>
 
 ```sh
-wget https://github.com/XORbit01/retro/releases/download/v0.0.46/installer.tar.gz
-tar -xvf installer.tar.gz
-chmod +x installer.sh
-./installer.sh
+{
+ "messageType": "DEEN",
+ "data": {
+    "deviceId": 1,
+    "current": 6,
+    "voltage": 380,
+    "power": 2280,
+    "energy": 10000,
+ }
+}
 ```
 
 </div>
