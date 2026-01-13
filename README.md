@@ -82,7 +82,7 @@
       <td>NCT06</td>
       <td>AE630-SW</td>
     </tr>
-       <tr>
+    <tr>
       <td>MDB 01</td>
       <td>Tủ Phân xưởng 01</td>
       <td>MCCB 01</td>
@@ -95,7 +95,7 @@
       <td>NF-S TYPE</td>
       <td>NF250-SV</td>
     </tr>
-          <tr>
+    <tr>
       <td>MDB 02</td>
       <td>Tủ Phân xưởng 02</td>
       <td>MCCB 02</td>
@@ -108,7 +108,7 @@
       <td>NF-S TYPE</td>
       <td>NF250-SV</td>
     </tr>
-          <tr>
+    <tr>
       <td>MDB 03</td>
       <td>Tủ Phân xưởng 03</td>
       <td>MCCB 03</td>
@@ -121,7 +121,7 @@
       <td>NF-S TYPE</td>
       <td>NF250-SV</td>
     </tr>
-          <tr>
+    <tr>
       <td>MDB 04</td>
       <td>Tủ Phân xưởng 04</td>
       <td>MCCB 04</td>
@@ -134,8 +134,7 @@
       <td>NF-S TYPE</td>
       <td>NF250-SV</td>
     </tr>
-       </tr>
-          <tr>
+    <tr>
       <td>MDB 05</td>
       <td>Tủ Phân xưởng 05</td>
       <td>MCCB 05</td>
@@ -148,8 +147,7 @@
       <td>NF-S TYPE</td>
       <td>NF250-SV</td>
     </tr>
-         </tr>
-          <tr>
+    <tr>
       <td>MDB 06</td>
       <td>Tủ Phân xưởng 06</td>
       <td>MCCB 06</td>
@@ -164,6 +162,7 @@
     </tr>
   </tbody>
 </table>
+ <h4>2. </h4>
 </div>
 
 
