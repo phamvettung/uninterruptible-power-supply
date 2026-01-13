@@ -7,7 +7,7 @@
 - [Abstract](#Abstract)
 - [Power Supply Design for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
 - [Control Panel Design](#control-panel-design)
-- [SCADA for Power System](#scada-for-power-system)
+- [SCADA for Power System](#SUPERVISORY-CONTROL-AND-DATA-ACQUISITION-FOR-POWER-SYSTEM)
 - [Demonstration](#demonstration)
 - [Requirements](#requirements)
 - [References](#references)
