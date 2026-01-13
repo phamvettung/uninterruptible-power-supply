@@ -229,6 +229,13 @@
   <img src="assets/security.PNG" alt="hi" width="540" height="840">
 </p>
 
+<h3>4. PLC to Server Protocol</h3>
+<p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc. Based on Spring Security JWT.</p>
+<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. Mỗi request gửi lên từ Client đều xác thực JWT Token.</p>
+<p align="center">
+  <img src="assets/plc_api_spec.PNG" alt="hi" width="840" height="540">
+</p>
+
 </div>
 
 
