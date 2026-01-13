@@ -164,7 +164,7 @@
 </table>
  <h4>2. Principle diagram of the distribution station</h4>
  <p align="center">
-  <img src="assets/distribution_station_principle.PNG" alt="hi" width="800" height="400">
+  <img src="assets/distribution_station_principle.PNG" alt="hi" width="840" height="540">
 </p>
 </div>
 
