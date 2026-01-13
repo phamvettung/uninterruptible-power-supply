@@ -4,7 +4,7 @@
 </div>
 
 ## Contents
-- [Introduce](#introdue)
+- [Abstract](#Abstract)
 - [Power Supply Design for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
 - [Control Panel Design](#control-panel-design)
 - [SCADA for Power System](#scada-for-power-system)
@@ -12,7 +12,7 @@
 - [Requirements](#requirements)
 - [References](#references)
 
-# INTRODUCE
+# ABSTRACT
 $${\color{#AC3097}Install \space \color{#56565E}Retro}$$ 
 ```sh
 wget https://github.com/XORbit01/retro/releases/download/v0.0.46/installer.tar.gz
