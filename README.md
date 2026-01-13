@@ -239,6 +239,7 @@
 <h3>5. Server to User Protocol</h3>
 <p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
 <p>Một bước điện gồm các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách các thông điệp với nhau.</p>
+
 ```sh
 wget https://github.com/XORbit01/retro/releases/download/v0.0.46/installer.tar.gz
 tar -xvf installer.tar.gz
