@@ -4,7 +4,7 @@
 </div>
 
 ## Contents
-- [<code>Introduce</code>](#-installation)
+- [<code>Introduce</code>](#-INTRODUCE)
 - [<code>Power Supply Design for An Industrial Plant</code>](#-music-management)
 - [<code>Control Panel Design</code>](#-playlist-management)
 - [<code>SCADA for Power System</code>](#-controls)
