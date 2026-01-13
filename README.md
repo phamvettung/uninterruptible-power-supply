@@ -178,6 +178,30 @@
  <p align="center">
   <img src="assets/internal_cabinet_layout.PNG" alt="hi" width="840" height="540">
 </p>
+ <h4>2. AC Power Distribution</h4>
+ <p align="center">
+  <img src="assets/ac_power_distribution.PNG" alt="hi" width="840" height="540">
+</p>
+  <h4>3. DC Power Distribution</h4>
+ <p align="center">
+  <img src="assets/dc_power_distribution.PNG" alt="hi" width="840" height="540">
+</p>
+<h4>4. Input Wiring</h4>
+ <p align="center">
+  <img src="assets/input_wiring.PNG" alt="hi" width="840" height="540">
+</p>
+<h4>5. Output Wiring</h4>
+ <p align="center">
+  <img src="assets/output_wiring.PNG" alt="hi" width="840" height="540">
+</p>
+ <h4>6. Terminal to CBs</h4>
+ <p align="center">
+  <img src="assets/terminal_to_devices.PNG" alt="hi" width="840" height="540">
+</p>
+ <h4>7. Fx5 485ADP to Metters</h4>
+ <p align="center">
+  <img src="assets/fx485adp_to_meters.PNG" alt="hi" width="840" height="540">
+</p>
 </div>
 
 
