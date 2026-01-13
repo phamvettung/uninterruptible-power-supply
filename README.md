@@ -221,6 +221,14 @@
 <p align="center">
   <img src="assets/tech_structure.PNG" alt="hi" width="840" height="540">
 </p>
+
+<h3>3. Authentication, Authorization and Security</h3>
+<p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
+ <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework sử dụng ngôn ngữ lập trình JAVA. Bên phía Frontend (Client) được xây dựng trên thư viện ReactJS để tạo giao diện người dùng.</p>
+<p align="center">
+  <img src="assets/security.PNG" alt="hi" width="540" height="840">
+</p>
+
 </div>
 
 
