@@ -275,7 +275,7 @@
 </div>
 
 # DEMONSTRATION
-[![Mobile Demo](assets/power_supply_diagram.PNG)](https://youtu.be/s6uQ-MICRmE)
+[![Mobile Demo](assets/youtobe-icon.png)](https://youtu.be/s6uQ-MICRmE)
 
 
 
