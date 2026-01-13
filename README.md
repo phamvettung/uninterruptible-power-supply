@@ -164,7 +164,7 @@
 </table>
  <h4>2. Principle diagram of the distribution station</h4>
  <p>The distribution substation is designed with two 400kVA, Y/Y, 22/0.4kV transformers connected to busbars C1 and C2 via two circuit breakers (ACBs) 01 and 02. A connecting circuit breaker (ACB 03) is used to supply power to the remaining busbar in case of a fault, where one of the two circuit breakers disconnects the power.</p>
- <p>Trạm phân phối được thiết kế với 02 Máy biến áp 400kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1, C2 thông qua 02 máy cắt ACB 01, 02. Một máy cắt liên lạc ACB 03 được sử dụng nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì hoặc thay thế MBA, 1 trong 02 ACB ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho nhóm phụ tải kia.</p>
+ <p>Trạm phân phối được thiết kế với 02 Máy biến áp 400kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1, C2 thông qua 02 máy cắt ACB 01, 02. Một máy cắt liên lạc ACB 03 được sử dụng để nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì hoặc thay thế MBA, 1 trong 2 ACB ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho nhóm phụ tải còn lại.</p>
  <p align="center">
   <img src="assets/distribution_station_principle.PNG" alt="hi" width="840" height="540">
 </p>
