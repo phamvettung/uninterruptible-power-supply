@@ -217,7 +217,7 @@
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Phía Backend (Server) được xây dựng trên nền tảng Spring Boot Framework. Bên phía Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện người dùng.</p>
+ <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework. Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện.</p>
 <p align="center">
   <img src="assets/tech_structure2.PNG" alt="hi" width="840" height="540">
 </p>
