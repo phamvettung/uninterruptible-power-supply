@@ -173,7 +173,7 @@
 # CONTROL PANEL DESIGN
 <div>
  <p>In this project, a PLC FX5UJ is used to control the switching on and off of 3 circuit breakers and to retrieve the on/off status of 3 ACBs and 6 MCCBs. The FX5 485ADP module is used to communicate with the electricity meters via the RS-485 protocol.</p>
- <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt và nhận tín hiệu trạng thái ON/OFF của 03 ACB và 06 MCCB. Module truyền thông RS-485 được sử dụng để kết nối với các đồng hồ đo điện để lấy dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
+ <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt chính và nhận tín hiệu trạng thái ON/OFF 03 ACB và 06 MCCB. Module truyền thông RS-485 được sử dụng để kết nối với các đồng hồ đo điện, thu thập dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
 <h3>1. Control Panel Layout</h3>
  <p align="center">
   <img src="assets/internal_cabinet_layout.PNG" alt="hi" width="840" height="540">
@@ -217,7 +217,7 @@
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework sử dụng ngôn ngữ lập trình JAVA. Bên phía Frontend (Client) được xây dựng trên thư viện ReactJS để tạo giao diện người dùng.</p>
+ <p>Phía Backend (Server) được xây dựng trên nền tảng Spring Boot Framework. Bên phía Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện người dùng.</p>
 <p align="center">
   <img src="assets/tech_structure.PNG" alt="hi" width="840" height="540">
 </p>
@@ -235,7 +235,7 @@
   <li>Bảng users, user_role, role: cho tính năng bảo mật, xác thực và phân quyền người dùng.</li>
   <li>Bảng cabinet: quản lý tủ điện: TPP, MDB.</li>
   <li>Table device: quản lý thiết bị: ACB, MCCB.</li>
-  <li>Table energy: dùng để thu thập dữ liệu về năng lượng.</li>
+  <li>Table energy: thu thập dữ liệu về năng lượng.</li>
 </ul>
 <p align="center">
   <img src="assets/database.PNG" alt="hi" width="840" height="540">
@@ -243,21 +243,21 @@
 
 <h3>4. Authentication, Authorization and Security</h3>
 <p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc. Based on Spring Security JWT.</p>
-<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. Mỗi request gửi lên từ Client đều xác thực JWT Token.</p>
+<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. Mỗi request gửi lên từ Client đều có xác thực JWT Token.</p>
 <p align="center">
   <img src="assets/security.PNG" alt="hi" width="540" height="840">
 </p>
 
 <h3>5. PLC to Server Protocol</h3>
 <p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
-<p>Một bức điện gồm các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách các thông điệp với nhau.</p>
+<p>Một bức điện có định dạng là các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách giữa các thông điệp.</p>
 <p align="center">
   <img src="assets/plc_api_spec.jpg" alt="hi" width="840" height="540">
 </p>
 
 <h3>6. Server to User Protocol</h3>
-<p>The messages sent and received between the server and the user are in the format of a JSON.</p>
-<p>Thông điệp để truyền và nhận dữ liệu giữa Server và User có định dạng là một chuỗi JSON.</p>
+<p>The messages sent and received between the server and the user are in the format of a JSON like this.</p>
+<p>Thông điệp để truyền và nhận dữ liệu giữa Server và User có định dạng là một chuỗi JSON như bên dưới.</p>
 
 ```sh
 {
@@ -274,14 +274,14 @@
 
 <h3>7. Power Supply Diagram</h3>
 <p>The Power Supply Diagram page displays the principle diagram of the distribution substation with the parameters of the connected devices in the circuit. It displays energy data and controls for opening/closing the ACBs.</p>
-<p>Trang Power Supply Diagram hiển thị sơ đồ nguyên lý của trạm phân phối cùng với thông số của thiết bị. Hiển thị giá trị năng lượng tức thời và điều khiển đóng, ngắt 03 máy cắt.</p>
+<p>Trang Power Supply Diagram cung cấp sơ đồ nguyên lý của trạm phân phối và các thông số của thiết bị điện. Hiển thị giá trị năng lượng tức thời và có thể điều điều khiển AUTO/MANUAL đóng, ngắt 03 máy cắt.</p>
 <p align="center">
   <img src="assets/power_supply_diagram.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>8. Real-time Trend</h3>
 <p>The Real-time Trend page displays an energy chart.</p>
-<p>Trang Real-time Trend hiển thị biểu đồ năng lượng.</p>
+<p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
 <p align="center">
   <img src="assets/real_time_trend.PNG" alt="hi" width="840" height="540">
 </p>
@@ -352,7 +352,7 @@
   <li>Modbus RS-485 communication</li>
   <li>AutoCAD</li>
 </ul>
-</div>
+<p>Languages: Java, JavaScript, HTML & CSS, JSX</p>
 
 # REFERENCES
 [1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh
