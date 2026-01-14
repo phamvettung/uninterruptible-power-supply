@@ -222,21 +222,28 @@
   <img src="assets/tech_structure.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>3. Authentication, Authorization and Security</h3>
+<h3>3. Table structure in Database</h3>
+<p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
+ <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework sử dụng ngôn ngữ lập trình JAVA. Bên phía Frontend (Client) được xây dựng trên thư viện ReactJS để tạo giao diện người dùng.</p>
+<p align="center">
+  <img src="assets/database.PNG" alt="hi" width="840" height="540">
+</p>
+
+<h3>4. Authentication, Authorization and Security</h3>
 <p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc. Based on Spring Security JWT.</p>
 <p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. Mỗi request gửi lên từ Client đều xác thực JWT Token.</p>
 <p align="center">
   <img src="assets/security.PNG" alt="hi" width="540" height="840">
 </p>
 
-<h3>4. PLC to Server Protocol</h3>
+<h3>5. PLC to Server Protocol</h3>
 <p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
 <p>Một bức điện gồm các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách các thông điệp với nhau.</p>
 <p align="center">
   <img src="assets/plc_api_spec.jpg" alt="hi" width="840" height="540">
 </p>
 
-<h3>5. Server to User Protocol</h3>
+<h3>6. Server to User Protocol</h3>
 <p>The messages sent and received between the server and the user are in the format of a JSON.</p>
 <p>Thông điệp để truyền và nhận dữ liệu giữa Server và User có định dạng là một chuỗi JSON.</p>
 
@@ -253,21 +260,21 @@
 }
 ```
 
-<h3>6. Power Supply Diagram</h3>
+<h3>7. Power Supply Diagram</h3>
 <p>The Power Supply Diagram page displays the principle diagram of the distribution substation with the parameters of the connected devices in the circuit. It displays energy data and controls for opening/closing the ACBs.</p>
 <p>Trang Power Supply Diagram hiển thị sơ đồ nguyên lý của trạm phân phối cùng với thông số của thiết bị. Hiển thị giá trị năng lượng tức thời và điều khiển đóng, ngắt 03 máy cắt.</p>
 <p align="center">
   <img src="assets/power_supply_diagram.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>7. Real-time Trend</h3>
+<h3>8. Real-time Trend</h3>
 <p>The Real-time Trend page displays an energy chart.</p>
 <p>Trang Real-time Trend hiển thị biểu đồ năng lượng.</p>
 <p align="center">
   <img src="assets/real_time_trend.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>8. Management functions</h3>
+<h3>9. Management functions</h3>
 <p align="center">
   <img src="assets/cabinet_manager.PNG" alt="hi" width="840" height="540">
 </p>
