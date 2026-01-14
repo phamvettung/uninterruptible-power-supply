@@ -223,12 +223,19 @@
 </p>
 
 <h3>3. Table structure in Database</h3>
-<p>The database management system used in the model is MySQL, which includes 6 tables:</p>
+<p>The database management system used in the project is MySQL, which includes 6 tables:</p>
 <ul>
   <li>Tables users, user_role, role: for security, authentication, and user authorization features.</li>
   <li>Table cabinet: for managing electrical cabinets: TPP, MDB.</li>
   <li>Table device: for managing devices: ACB, MCCB.</li>
   <li>Table energy: for collecting energy data.</li>
+</ul>
+<p>Hệ quản trị cơ sở dữ liệu sử dụng trong dự án là MySQL gồm 06 bảng:</p>
+<ul>
+  <li>Bảng users, user_role, role: cho tính năng bảo mật, xác thực và phân quyền người dùng.</li>
+  <li>Bảng cabinet: quản lý tủ điện: TPP, MDB.</li>
+  <li>Table device: quản lý thiết bị: ACB, MCCB.</li>
+  <li>Table energy: dùng để thu thập dữ liệu về năng lượng.</li>
 </ul>
 <p align="center">
   <img src="assets/database.PNG" alt="hi" width="840" height="540">
