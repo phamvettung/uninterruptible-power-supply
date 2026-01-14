@@ -286,7 +286,9 @@
   <img src="assets/real_time_trend.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>9. Management functions</h3>
+<h3>9. Data Managerment</h3>
+<p>This page manages electrical cabinets, equipment, and users, with features for filtering, searching, and pagination.</p>
+<p>Quản lý dữ liệu về tủ điện, thiết bị và người dùng với các tính năng lọc, tìm kiếm, phân trang.</p>
 <p align="center">
   <img src="assets/cabinet_manager.PNG" alt="hi" width="840" height="540">
 </p>
