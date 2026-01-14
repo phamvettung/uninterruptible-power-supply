@@ -319,6 +319,7 @@
 <ul>
   <li>Spring Boot 3</li>
   <li>Tomcat server 10.1.31</li>
+  <li>MySQL</li>
   <li>Spring Boot Security</li>
   <li>Spring Boot WebSocket</li>
   <li>Spring Data JPA</li>
