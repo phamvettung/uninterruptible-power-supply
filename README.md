@@ -315,20 +315,32 @@
 
 # REQUIREMENTS
 <div>
-
-<p align="center">
-  <a href="https://youtu.be/s6uQ-MICRmE">
-    <img src="assets/youtube-icon.png" width="300" alt="PC Demo">
-  </a>
-</p>
-
-<h3>MOBILE FRIENDLY</h3>
-<p align="center">
-  <a href="https://youtube.com/shorts/Xq4Q5umekUE?feature=share">
-    <img src="assets/youtube-icon.png" width="300" alt="Mobile Demo">
-  </a>
-</p>
- 
+<p>Back-end</p>
+<ul>
+  <li>Spring Boot 3</li>
+  <li>Tomcat server 10.1.31</li>
+  <li>Spring Boot Security</li>
+  <li>Spring Boot WebSocket</li>
+  <li>Spring Data JPA</li>
+  <li>Hibernate core 6.6.18</li>
+  <li>Lombok</li>
+  <li>Spring Boot Validation</li>
+  <li>Json Webtoken 0.9.1</li>
+  <li>Gson 2.10.1</li>
+</ul>
+<p>Front-end</p>
+<ul>
+  <li>Spring Boot 3</li>
+  <li>Tomcat server 10.1.31</li>
+  <li>Spring Boot Security</li>
+  <li>Spring Boot WebSocket</li>
+  <li>Spring Data JPA</li>
+  <li>Hibernate core 6.6.18</li>
+  <li>Lombok</li>
+  <li>Spring Boot Validation</li>
+  <li>Json Webtoken 0.9.1</li>
+  <li>Gson 2.10.1</li>
+</ul>
 </div>
 
 
