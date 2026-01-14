@@ -350,7 +350,6 @@
   <li>PLC FX5UJ MITSUBISHI</li>
   <li>Socket TCP programming</li>
   <li>Modbus RS-485 communication</li>
-  <li>AutoCAD</li>
 </ul>
 <p>Languages: Java, JavaScript, HTML & CSS, JSX</p>
 
