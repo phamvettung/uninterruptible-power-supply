@@ -3,7 +3,7 @@
  <h1>HỆ THỐNG ĐIỀU KHIỂN GIÁM SÁT VÀ THU THẬP DỮ LIỆU TRONG HỆ THỐNG ĐIỆN</h1>
 </div>
 
-## Contents
+## Content
 - [Abstract](#Abstract)
 - [Power Supply Design for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
 - [Control Panel Design](#control-panel-design)
