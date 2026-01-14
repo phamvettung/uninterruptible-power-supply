@@ -212,14 +212,14 @@
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
  <p>Bộ điều khiển PLC giao tiếp với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị thông qua Module truyền thông RS-485 và các cổng vào ra số.</p>
 <p align="center">
-  <img src="assets/tech_diagram.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_diagram2.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
  <p>Phía Backend (Server) được xây dựng trên nền tảng Spring Boot Framework. Bên phía Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện người dùng.</p>
 <p align="center">
-  <img src="assets/tech_structure.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_structure2.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>3. Table structure in Database</h3>
