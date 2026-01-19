@@ -212,14 +212,14 @@
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
  <p>Bộ điều khiển PLC giao tiếp với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị thông qua Module truyền thông RS-485 và các cổng vào ra số.</p>
 <p align="center">
-  <img src="assets/tech_diagram.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_diagram2.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Phía Backend (Server) được xây dựng trên nền tảng Spring Boot Framework. Bên phía Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện người dùng.</p>
+ <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework. Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện.</p>
 <p align="center">
-  <img src="assets/tech_structure.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_structure2.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>3. Table structure in Database</h3>
@@ -288,7 +288,7 @@
 
 <h3>9. Data Managerment</h3>
 <p>This page manages electrical cabinets, equipment, and users, with features for filtering, searching, and pagination.</p>
-<p>Quản lý dữ liệu về tủ điện, thiết bị và tài khoản. Cung cấp các tính năng lọc, tìm kiếm dữ liệu và phân trang.</p>
+<p>Quản lý dữ liệu về tủ điện, thiết bị và tài khoản. Cung cấp tính năng lọc, tìm kiếm dữ liệu kết hợp phân trang.</p>
 <p align="center">
   <img src="assets/cabinet_manager.PNG" alt="hi" width="840" height="540">
 </p>
@@ -327,17 +327,12 @@
   <li>Lombok</li>
   <li>Spring Boot Validation</li>
   <li>Json Webtoken 0.9.1</li>
-  <li>Gson 2.10.1</li>
 </ul>
 <p>Front-end</p>
 <ul>
   <li>React 18.3.1</li>
   <li>Docker</li>
-  <li>Redux Toolkit 2.10.1</li>
-  <li>Stomp JS 7.2.1</li>
   <li>Axios 1.13.2</li>
-  <li>js-cookie 3.0.5</li>
-  <li>jwt-decode 4.0.0</li>
   <li>React redux 9.2.0</li>
   <li>React router 7.9.6</li>
   <li>React charts 3.5.1</li>
