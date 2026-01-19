@@ -327,17 +327,12 @@
   <li>Lombok</li>
   <li>Spring Boot Validation</li>
   <li>Json Webtoken 0.9.1</li>
-  <li>Gson 2.10.1</li>
 </ul>
 <p>Front-end</p>
 <ul>
   <li>React 18.3.1</li>
   <li>Docker</li>
-  <li>Redux Toolkit 2.10.1</li>
-  <li>Stomp JS 7.2.1</li>
   <li>Axios 1.13.2</li>
-  <li>js-cookie 3.0.5</li>
-  <li>jwt-decode 4.0.0</li>
   <li>React redux 9.2.0</li>
   <li>React router 7.9.6</li>
   <li>React charts 3.5.1</li>
