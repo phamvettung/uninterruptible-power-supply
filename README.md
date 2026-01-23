@@ -317,7 +317,7 @@
 <div>
 <p>Back-end</p>
 <ul>
-  <li>Spring Boot 3</li>
+  <li>Spring Boot 3.5.6</li>
   <li>Tomcat server 10.1.31</li>
   <li>MySQL</li>
   <li>Spring Boot Security</li>
