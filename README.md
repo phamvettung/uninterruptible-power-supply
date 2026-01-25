@@ -23,10 +23,10 @@
  <p>Design a power supply for an industrial enterprise comprising 6 workshops, with power sourced from a 22kV connection point. Maximum power usage time Tmax = 5100 hours. Type I and Type II loads account for 75%. Allowable voltage drop in the low-voltage network ΔUcp = 5%. The calculated data is shown below.</p>
 <p>Thiết kế hệ thống cấp điện cho một Xí nghiệp công nghiệp gồm 6 Phân xưởng, nguồn điện được lấy từ điểm đấu điện của lưới 22kV. Thời gian sử dụng công suất tối đa Tmax = 5100h. Phụ tải loại I, loại II chiếm 75%. Tổn hao điện áp cho phép trong mạng điện hạ thế ΔUcp = 5%. Các số liệu tính toán được thể hiện trong bảng dưới đây.</p>
 <p align="center">
-  <img src="assets/electrical_calculation.jpg" alt="hi" width="840" height="540">
+  <img src="assets/electrical_calculation2.jpg" alt="hi" width="840" height="540">
 </p>
 <h3>1. Calculate the selection of ACB, MCCB</h3>
- <table align="center">
+ <table align="center" width="840">
   <thead>
     <tr>
       <th>Cabinet ID</th>
@@ -254,7 +254,7 @@
 <p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
 <p>Một bức điện có định dạng là các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách giữa các thông điệp.</p>
 <p align="center">
-  <img src="assets/plc_api_spec.jpg" alt="hi" width="840" height="540">
+  <img src="assets/plc_api_spec2.jpg" alt="hi" width="840" height="540">
 </p>
 
 <h3>6. Server to User Protocol</h3>
