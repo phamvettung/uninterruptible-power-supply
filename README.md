@@ -219,7 +219,7 @@
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
  <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework. Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện.</p>
 <p align="center">
-  <img src="assets/tech_structure2.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_structure3.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>3. Table structure in Database</h3>
@@ -238,14 +238,14 @@
   <li>Table energy: thu thập dữ liệu về năng lượng.</li>
 </ul>
 <p align="center">
-  <img src="assets/database.PNG" alt="hi" width="840" height="540">
+  <img src="assets/upssdb_diagram.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>4. Authentication, Authorization and Security</h3>
 <p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc. Based on Spring Security JWT.</p>
 <p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. Mỗi request gửi lên từ Client đều có xác thực JWT Token.</p>
 <p align="center">
-  <img src="assets/security.PNG" alt="hi" width="540" height="840">
+  <img src="assets/security2.PNG" alt="hi" width="540" height="840">
 </p>
 
 <h3>5. PLC to Server Protocol</h3>
