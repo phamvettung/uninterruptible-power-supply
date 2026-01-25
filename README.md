@@ -25,8 +25,8 @@
 <p align="center">
   <img src="assets/electrical_calculation2.jpg" alt="hi" width="840" height="540">
 </p>
-<h3>1. Calculate the selection of ACB, MCCB</h3>
- <table align="center" width="840">
+<h3>1. Calculate the selection of ACB, MCCB Table</h3>
+ <table align="center" width="80%">
   <thead>
     <tr>
       <th>Cabinet ID</th>
