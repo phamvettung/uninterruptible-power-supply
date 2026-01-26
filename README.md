@@ -23,9 +23,9 @@
  <p>Design a power supply for an industrial enterprise comprising 6 workshops, with power sourced from a 22kV connection point. Maximum power usage time Tmax = 5100 hours. Type I and Type II loads account for 75%. Allowable voltage drop in the low-voltage network ΔUcp = 5%. The calculated data is shown below.</p>
 <p>Thiết kế hệ thống cấp điện cho một Xí nghiệp công nghiệp gồm 6 Phân xưởng, nguồn điện được lấy từ điểm đấu điện của lưới 22kV. Thời gian sử dụng công suất tối đa Tmax = 5100h. Phụ tải loại I, loại II chiếm 75%. Tổn hao điện áp cho phép trong mạng điện hạ thế ΔUcp = 5%. Các số liệu tính toán được thể hiện trong bảng dưới đây.</p>
 <p align="center">
-  <img src="assets/electrical_calculation.jpg" alt="hi" width="840" height="540">
+  <img src="assets/electrical_calculation2.jpg" alt="hi" width="840" height="540">
 </p>
-<h3>1. Calculate the selection of ACB, MCCB</h3>
+<h3>1. Calculate the selection of ACB, MCCB Table</h3>
  <table align="center">
   <thead>
     <tr>
@@ -163,8 +163,8 @@
   </tbody>
 </table>
  <h3>2. Principle diagram of the distribution station</h3>
- <p>The distribution substation is designed with two 400kVA, Y/Y, 22/0.4kV transformers connected to busbars C1 and C2 via two circuit breakers (ACBs) 01 and 02. A connecting circuit breaker (ACB 03) is used to supply power to the remaining busbar in case of a fault, where one of the two circuit breakers disconnects the power.</p>
- <p>Trạm phân phối được thiết kế với 02 Máy biến áp 400kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1, C2 thông qua máy cắt ACB 01, ACB 02. Một máy cắt liên lạc ACB 03 được sử dụng để nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì, thay thế Máy biến áp, 1 trong 2 ACB ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho nhóm phụ tải bên kia.</p>
+ <p>The distribution substation is designed with two 400kVA, Y/Y, 22/0.4kV transformers connected to busbars C1 and C2 and two circuit breakers (ACBs) 01 and 02. A connecting circuit breaker (ACB 03) connects two busbars. In case of a fault or when maintenance or transformer replacement is needed. One of the two Circuit breakers will trip, and Circuit breaker 03 will close to power supply on the other side.</p>
+ <p>Trạm phân phối được thiết kế với 02 Máy biến áp 400kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1, C2 và máy cắt ACB 01, ACB 02. Một máy cắt liên lạc ACB 03 nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì, thay thế Máy biến áp, 1 trong 2 Máy cắt ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho các phụ tải phía bên kia.</p>
  <p align="center">
   <img src="assets/distribution_station_principle.PNG" alt="hi" width="840" height="540">
 </p>
@@ -172,7 +172,7 @@
 
 # CONTROL PANEL DESIGN
 <div>
- <p>In this project, a PLC FX5UJ is used to control the switching on and off of 3 circuit breakers and to retrieve the on/off status of 3 ACBs and 6 MCCBs. The FX5 485ADP module is used to communicate with the electricity meters via the RS-485 protocol.</p>
+ <p>In this project, a PLC FX5UJ is used to control 03 main circuit breakers and to retrieve the on/off status of 03 ACBs and 06 MCCBs. The FX5 485ADP module is used to communicate with the electricity meters via the RS-485 protocol. College data of the current, voltage, power, energy consumption.</p>
  <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt chính và nhận tín hiệu trạng thái ON/OFF 03 ACB và 06 MCCB. Module truyền thông RS-485 được sử dụng để kết nối với các đồng hồ đo điện, thu thập dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
 <h3>1. Control Panel Layout</h3>
  <p align="center">
@@ -207,7 +207,9 @@
 # SUPERVISORY CONTROL AND DATA ACQUISITION FOR POWER SYSTEM
 <div>
   <p>A SCADA software was developed to control and monitor equipment remotely via a web browser. Energy data is collected automatically in real time. All the technologies used and communication protocols are presented below.</p>
- <p>Một phần mềm SCADA được phát triển để điều khiển, giám sát trạng thái của thiết bị từ xa thông qua trình duyệt web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả bên dưới đây.</p>
+ <p>P
+  
+  hần mềm SCADA được phát triển để điều khiển, giám sát trạng thái của thiết bị từ xa thông qua trình duyệt web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả bên dưới đây.</p>
 <h3>1. Diagram of Technology</h3>
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
  <p>Bộ điều khiển PLC giao tiếp với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị thông qua Module truyền thông RS-485 và các cổng vào ra số.</p>
@@ -217,13 +219,13 @@
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Phía Backend (Server) được xây dựng trên Spring Boot Framework. Frontend (Client) được xây dựng dựa trên thư viện ReactJS để tạo giao diện.</p>
+ <p>Backend được xây dựng trên Spring Boot Framework. Frontend được xây dựng dựa trên thư viện ReactJS.</p>
 <p align="center">
   <img src="assets/tech_structure3.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>3. Table structure in Database</h3>
-<p>The database management system used in the project is MySQL, which includes 6 tables:</p>
+<p>The database management system used in the project is MySQL, which includes 7 tables:</p>
 <ul>
   <li>Tables users, user_role, role: for security, authentication, and user authorization features.</li>
   <li>Table cabinet: for managing electrical cabinets: TPP, MDB.</li>
@@ -245,16 +247,16 @@
 
 <h3>4. Authentication, Authorization and Security</h3>
 <p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc. Based on Spring Security JWT.</p>
-<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. Mỗi request gửi lên từ Client đều có xác thực JWT Access token.</p>
+<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc.</p>
 <p align="center">
   <img src="assets/security2.PNG" alt="hi" width="740" height="1040">
 </p>
 
 <h3>5. PLC to Server Protocol</h3>
 <p>A message used to transmit and receive data between a PLC and a server is defined by binary bytes. Each message sent has a start (STX) and end character (ETX).</p>
-<p>Một bức điện có định dạng là các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi thông điệp gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX) để phân tách giữa các thông điệp.</p>
+<p>Một bức điện có định dạng là các byte nhị phân dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi bức điện gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX).</p>
 <p align="center">
-  <img src="assets/plc_api_spec.jpg" alt="hi" width="840" height="540">
+  <img src="assets/plc_api_spec2.jpg" alt="hi" width="840" height="540">
 </p>
 
 <h3>6. Server to User Protocol</h3>
