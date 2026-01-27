@@ -226,8 +226,8 @@
 <p>The database management system used in the project is MySQL, which includes 07 tables:</p>
 <ul>
   <li>Tables users, user_role, role: for security, authentication, and user authorization features.</li>
-  <li>Table cabinet: for managing electrical cabinets: TPP, MDB.</li>
-  <li>Table device: for managing devices: ACB, MCCB.</li>
+  <li>Table cabinet: for managing electrical cabinets (TPP, MDB).</li>
+  <li>Table device: for managing devices (ACB, MCCB).</li>
   <li>Table energy: for collecting energy data.</li>
   <li>Table tokens: for storing refresh token.</li>
 </ul>
