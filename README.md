@@ -234,8 +234,8 @@
 <p>Hệ quản trị cơ sở dữ liệu sử dụng trong dự án là MySQL gồm 07 bảng:</p>
 <ul>
   <li>Bảng users, user_role, role: cho tính năng bảo mật, xác thực và phân quyền người dùng.</li>
-  <li>Bảng cabinet: quản lý tủ điện: TPP, MDB.</li>
-  <li>Bảng device: quản lý thiết bị: ACB, MCCB.</li>
+  <li>Bảng cabinet: quản lý tủ điện (TPP, MDB).</li>
+  <li>Bảng device: quản lý thiết bị (ACB, MCCB).</li>
   <li>Bảng energy: thu thập dữ liệu về năng lượng.</li>
   <li>Bảng tokens: lưu trữ refresh token.</li>
 </ul>
