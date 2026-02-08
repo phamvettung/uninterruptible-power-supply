@@ -350,19 +350,19 @@ $$
  <p align="center">
   <img src="assets/dc_power_distribution.PNG" alt="hi" width="840" height="540">
 </p>
-<h3>4. Input Wiring</h3>
+<h3>4. Input wiring</h3>
  <p align="center">
   <img src="assets/input_wiring.PNG" alt="hi" width="840" height="540">
 </p>
-<h3>5. Output Wiring</h3>
+<h3>5. Output wiring</h3>
  <p align="center">
   <img src="assets/output_wiring.PNG" alt="hi" width="840" height="540">
 </p>
- <h3>6. Terminal to CBs</h3>
+ <h3>6. Terminal to ACBs and MCCBs</h3>
  <p align="center">
   <img src="assets/terminal_to_devices.PNG" alt="hi" width="840" height="540">
 </p>
- <h3>7. Fx5 485ADP to Electrical meters</h3>
+ <h3>7. Fx5-485ADP to the electrical meters</h3>
  <p align="center">
   <img src="assets/fx485adp_to_meters.PNG" alt="hi" width="840" height="540">
 </p>
