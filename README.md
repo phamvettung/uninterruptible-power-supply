@@ -96,7 +96,7 @@ $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
 $$
 
-**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch Uk% = 4 = 22*0.06 = 0.88 kV**
+**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch Uk% = 4 = 22*0.04 = 0.88 kV**
 
 >>Tổn hao công suất không tải và tổn hao ngắn mạch (P0, Pk)
 
@@ -113,24 +113,24 @@ $$
 >>Điện trở BA
 
 $$
-   R_{BA} = \frac{\Delta P_k \cdot U^2}{S_{BA}^2} = \frac{2.6 \cdot 0.4^2}{250 \times 10^{-3}} = 15.55 . 10^{-3} \Omega
+   R_{BA} = \frac{\Delta P_k \cdot U^2}{S_{BA}^2} = \frac{2.6 \cdot 0.4^2}{250} = 1.664 \times 10^{-3} \Omega
 $$
 
 >>Tổng trở BA
 
 $$
-   Z_{BA} = \frac{\Delta U_k \cdot U^2}{100 \times S_{BA}} = \frac{4 \cdot 0.4^2}{100 \times 180} \times 10^3 = 35.55 . 10^{-3} \Omega
+   Z_{BA} = \frac{\Delta U_k \cdot U^2}{S_{BA}} = \frac{0.88 \cdot 0.4^2}{250} = 0.5632 \times 10^{-3} \Omega
 $$
 
 >>Điện kháng BA
 
 $$
-   X_{BA} = \sqrt(35.55^2 - 15.55^2) \times 10^{-3} = 31.97 . 10^{-3} \Omega
+   X_{BA} = \sqrt((1.664 \times 10^{-3})^2 - (5.632 \times 10^{-6})^2) = 1.663 \times 10^{-3} \Omega
 $$
 
 >>Khi 2 biến áp làm việc song song
 
-$$R_{BA} = \frac{15.55}{2} = 7.775 \Omega$$ $$X_{BA} = \frac{31.97}{2} = 15.98 \Omega$$
+$$R_{BA} = \frac{1.664}{2} = 0.832 \Omega$$ $$X_{BA} = \frac{1.663}{2} = 0.832 \Omega$$
 
 **- Tính toán ngắn mạch:**
 >>Công suất ngắn mạch tại điểm đấu điện là Sk = 180 MVA, vậy điện trở của hệ thống là:
@@ -152,19 +152,19 @@ $$
 >>Điện trở ngắn mạch tại điểm thanh cái máy biến áp (N1):
 
 $$
-   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(7.775^2 + (0.89 + 15.98)^2) \times 10^{-3} = 18.59 \times 10^{-3} \Omega
+   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(0.832^2 + (0.89 + 5.632 \times 10^{-6})^2) = 1.624 \Omega
 $$
 
 >>Dòng điện ngắn mạch 3 Pha tại điểm N1:
 
 $$
-   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 18.59} = 12.31 kA
+   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 1.624} = 12.31 kA
 $$
 
 >>Điện trở ngắn mạch tại Phân xưởng xa nhất(N2):
 
 $$
-   Z_{kt} N2 = X_{HT} + Z_{BA} = \sqrt((7.775 + R_C)^2 + (0.89 + 15.98 + X_C)^2) \times 10^{-3} = 160.05 \times 10^{-3} \Omega
+   Z_{kt} N2 = X_{HT} + Z_{BA} = \sqrt((7.775 + R_C)^2 + (0.89 + 5.632 \times 10^{-3} + X_C)^2) \times 10^{-3} = 160.05 \times 10^{-3} \Omega
 $$
 
 >>Dòng điện ngắn mạch 3 Pha tại điểm N2:
