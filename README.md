@@ -62,13 +62,13 @@ $$
 
 **- Chọn dây dẫn từ nguồn đến trạm biến áp:**
 
-**Dòng điện chạy trên dây dẫn**
+>>Dòng điện chạy trên dây dẫn
 
 $$
    I = \frac{S_{XN}}{\sqrt(3) \times U} = \frac{287.48}{\sqrt(3) \times 22} = 7.544 A
 $$
 
-**Tiết diện dây nhôm theo mật độ dòng điện kinh tế (Jkt = 1.2 A/mm2). Đối với đường dây cao áp tiết diện tối thiểu không nhỏ hơn 35mm2 => Ta chọn dây AC-35 nối từ nguồn vào trạm biến áp**
+>>Tiết diện dây nhôm theo mật độ dòng điện kinh tế (Jkt = 1.2 A/mm2). Đối với đường dây cao áp tiết diện tối thiểu không nhỏ hơn 35mm2 => Ta chọn dây AC-35 nối từ nguồn vào trạm biến áp
 
 $$
    F = \frac{I}{J_{kt}} = \frac{7.544}{1.2} = 6.28 \text{mm}^2
@@ -76,7 +76,7 @@ $$
 
 #### b. Chọn Máy biến áp
 
-**Ta có tổng công suất tính toán toàn Xí nghiệp (chưa kể đến hao tổn công suất trên đường đây) = 287.48 kVA, thời gian sử dụng công suất tối đa = 5100 h**
+>>Ta có tổng công suất tính toán toàn Xí nghiệp (chưa kể đến hao tổn công suất trên đường đây) = 287.48 kVA, thời gian sử dụng công suất tối đa = 5100 h
 
 **- Công suất trung bình**
 
@@ -98,7 +98,7 @@ $$
 
 **- Tham số của máy biến áp: công suất định mức 180 kVA, điện áp ngắn mạch 4 kV**
 
-**hao tổn công suất**
+>>Hao tổn công suất
 
 $$
    \Delta P_{0}= 0.53 kW
@@ -106,6 +106,20 @@ $$
 
 $$
    \Delta P_{k}= 3.15 kW
+$$
+
+**- Tính toán trong máy biến áp:**
+
+>>Điện trở trong BA
+
+$$
+   R_{BA} = \frac{\Delta P_k \cdot U^2}{S_{BA}^2} = \frac{3.15 \cdot 0.4^2}{180 \times 10^{-3}} = 15.55 . 10^{-3} \Omega
+$$
+
+>>Tổng trở BA
+
+$$
+   Z_{BA} = \frac{\Delta U_k \cdot U^2}{100 \times S_{BA}} = \frac{4 \cdot 0.4^2}{100 \times 180} \times 10^3 = 35.55 . 10^{-3} \Omega
 $$
 
 
