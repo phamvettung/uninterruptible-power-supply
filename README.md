@@ -110,7 +110,7 @@ $$
 
 **- Tính toán trong máy biến áp:**
 
->>Điện trở trong BA
+>>Điện trở BA
 
 $$
    R_{BA} = \frac{\Delta P_k \cdot U^2}{S_{BA}^2} = \frac{3.15 \cdot 0.4^2}{180 \times 10^{-3}} = 15.55 . 10^{-3} \Omega
@@ -120,6 +120,35 @@ $$
 
 $$
    Z_{BA} = \frac{\Delta U_k \cdot U^2}{100 \times S_{BA}} = \frac{4 \cdot 0.4^2}{100 \times 180} \times 10^3 = 35.55 . 10^{-3} \Omega
+$$
+
+>>Điện kháng BA
+
+$$
+   X_{BA} = \sqrt(35.55^2 - 15.55^2) \times 10^{-3} = 31.97 . 10^{-3} \Omega
+$$
+
+>>Khi 2 biến áp làm việc song song
+
+$$R_{BA} = \frac{15.55}{2} = 7.775 \Omega$$ $$X_{BA} = \frac{31.97}{2} = 15.98 \Omega$$
+
+**- Tính toán ngắn mạch:**
+>>Công suất ngắn mạch tại điểm đấu điện là Sk = 180 MVA, vậy điện trở của hệ thống là:
+
+$$
+   X_{HT} = \frac{U_{CB}^2}{S_k} = \frac{0.4^2}{180} = 0.89 \times 10^{-3} \Omega
+$$
+
+>>Điện trở ngắn mạch tại điểm thanh cái máy biến áp (N1):
+
+$$
+   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(7.775^2 + (0.89 + 15.98)) = 18.59 \times 10^{-3} \Omega
+$$
+
+>>Dòng điện ngắn mạch 3 Pha:
+
+$$
+   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 18.59} = 12.31 kA
 $$
 
 
