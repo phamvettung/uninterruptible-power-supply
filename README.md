@@ -338,7 +338,7 @@ $$
 <div>
  <p>In this project, a PLC FX5UJ is used to control 03 main circuit breakers. Retrieve the on/off status of 03 ACBs and 06 MCCBs. The FX5-485ADP module is used to communicate with the electricity meters via the RS-485 protocol. College data of the current, voltage, power, energy consumption.</p>
  <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt chính. Nhận tín hiệu trạng thái ON/OFF của 03 ACB và 06 MCCB. Module truyền thông FX5-485ADP được sử dụng để kết nối với các đồng hồ đo điện, thu thập dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
-<h3>1. Control Panel Layout</h3>
+<h3>1. Control cabinet layout</h3>
  <p align="center">
   <img src="assets/internal_cabinet_layout.PNG" alt="hi" width="840" height="540">
 </p>
