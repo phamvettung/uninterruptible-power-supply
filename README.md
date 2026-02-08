@@ -46,6 +46,12 @@ $$
 \cos \varphi XN = \frac{\sum (S_i \times \cos_{\varphi,i})}{\sum S_i} = 0.75 => \sin \varphi = \sqrt{1-\cos^2 \varphi} = 0.66
 $$
 
+**- Tổng công suất tính toán của toàn Xí nghiệp:**
+
+$$
+S_{XN} = K_{nc}XN \times \sum S_i = 0.743 \times 386.75 = 287.48
+$$
+
  
 <h3>1. Calculate the selection of ACB, MCCB Table</h3>
  <table align="center">
