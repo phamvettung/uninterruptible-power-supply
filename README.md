@@ -60,9 +60,9 @@ $$
 Q_{XN} = S_{XN} \times \sin \varphi_{XN} = 0.66 \times 287.48 = 189.95 kVAr
 $$
 
-**- Chọn dây dẫn từ nguồn đến trạm biến áp**
+**- Chọn dây dẫn từ nguồn đến trạm biến áp:**
 
-**Dòng điện chạy trên dây dẫn:**
+**Dòng điện chạy trên dây dẫn**
 
 $$
    I = \frac{S_{XN}}{\sqrt(3) \times U} = \frac{287.48}{\sqrt(3) \times 22} = 7.544 A
@@ -73,6 +73,18 @@ $$
 $$
    F = \frac{I}{J_{kt}} = \frac{7.544}{1.2} = 6.28 \text{mm}^2
 $$
+
+#### b. Chọn Máy biến áp
+
+**Ta có tổng công suất tính toán toàn Xí nghiệp (chưa kể đến hao tổn công suất trên đường đây) = 287.48 kVA, thời gian sử dụng công suất tối đa = 5100 h**
+
+**- Công suất trung bình**
+
+$$
+   S_{tb} = \frac{S_{XN} \times T_{max}}{8760} = \frac{287.48 \times 5100}{8760} = 167.36 kVA
+$$
+
+
 
 
  
