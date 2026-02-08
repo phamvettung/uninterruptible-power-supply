@@ -211,7 +211,7 @@ $$
       <td>TPP01</td>
       <td>Tủ Phân phối 01</td>
       <td>ACB 01</td>
-      <td>316.07</td>
+      <td>414.93</td>
       <td>12.31</td>
       <td>690</td>
       <td>630</td>
@@ -224,7 +224,7 @@ $$
       <td>TPP02</td>
       <td>Tủ Phân phối 02</td>
       <td>ACB 02</td>
-      <td>316.07</td>
+      <td>414.93</td>
       <td>12.31</td>
       <td>690</td>
       <td>630</td>
@@ -237,7 +237,7 @@ $$
       <td>MC 03</td>
       <td>Máy Cắt 03</td>
       <td>ACB 03</td>
-      <td>316.07</td>
+      <td>414.93</td>
       <td>12.31</td>
       <td>690</td>
       <td>630</td>
