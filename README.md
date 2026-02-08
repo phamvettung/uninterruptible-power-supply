@@ -90,22 +90,22 @@ $$
    k_{đk} = \frac{S_{tb}}{S_{XN}} = \frac{167.63}{287.48} = 0.58
 $$
 
->>Chọn 02 Máy biến áp có công suất 2 x 180 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
+>>Chọn 02 Máy biến áp có công suất 2 x 250 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
 
 $$
-   k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{180} = 1.59 < 1.4
+   k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
 $$
 
-**- Tham số của máy biến áp: công suất định mức 180 kVA, điện áp ngắn mạch 4 kV**
+**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch Uk = 4 kV**
 
->>Hao tổn công suất
-
-$$
-   \Delta P_{0}= 0.53 kW
-$$
+>>Tổn hao công suất không tải và tổn hao ngắn mạch (P0, Pk)
 
 $$
-   \Delta P_{k}= 3.15 kW
+   \Delta P_{0}= 0.34 kW
+$$
+
+$$
+   \Delta P_{k}= 2.6 kW
 $$
 
 **- Tính toán trong máy biến áp:**
