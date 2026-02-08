@@ -26,7 +26,7 @@
   <img src="assets/electrical_calculation3.jpg" alt="hi" width="840" height="540">
 </p>
 
-#### a. Xác định phụ tải tính toán của toàn xí nghiệp
+#### a. Xác định phụ tải tính toán của toàn Xí nghiệp
 
 **- Hệ số sử dụng của toàn Xí nghiệp:**
 
