@@ -90,7 +90,7 @@ $$
    k_{đk} = \frac{S_{tb}}{S_{XN}} = \frac{167.63}{287.48} = 0.58
 $$
 
-**Chọn 02 Máy biến áp có công suất 2 x 180 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu**
+>>Chọn 02 Máy biến áp có công suất 2 x 180 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
 
 $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{180} = 1.59 < 1.4
