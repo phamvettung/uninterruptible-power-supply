@@ -21,7 +21,7 @@
 # DESIGNING A POWER SUPPLY FOR AN INDUSTRIAL PLANT
 <div>
  <p>Design a power supply for an industrial enterprise comprising 6 workshops, with power sourced from a 22kV connection point. Maximum power usage time Tmax = 5100 hours. Type I and Type II loads account for 75%. Allowable voltage drop in the low-voltage network ΔUcp = 5%. The calculated data is shown below.</p>
-<p>Thiết kế hệ thống cấp điện cho một Xí nghiệp công nghiệp gồm 6 Phân xưởng, nguồn điện được lấy từ điểm đấu điện của lưới 22kV. Thời gian sử dụng công suất tối đa Tmax = 5100h. Phụ tải loại I, loại II chiếm 75%. Tổn hao điện áp cho phép trong mạng điện hạ thế ΔUcp = 5%. Các số liệu tính toán được thể hiện trong bảng dưới đây.</p>
+<p>Thiết kế hệ thống cấp điện cho một Xí nghiệp công nghiệp gồm 6 Phân xưởng, nguồn điện được lấy từ điểm đấu điện của lưới 22kV. Thời gian sử dụng công suất tối đa Tmax = 5100h. Phụ tải loại I, loại II chiếm 75%. Tổn hao điện áp cho phép trong mạng điện hạ thế ΔUcp = 5%. Công suất ngắn mạch tại điểm đấu điện = 180 MVA. Các số liệu tính toán được thể hiện trong bảng dưới đây.</p>
 <p align="center">
   <img src="assets/electrical_calculation2.jpg" alt="hi" width="840" height="540">
 </p>
@@ -74,7 +74,7 @@ $$
    F = \frac{I}{J_{kt}} = \frac{7.544}{1.2} = 6.28 \text{mm}^2
 $$
 
-#### b. Chọn Máy biến áp
+#### b. Chọn máy biến áp
 
 >>Ta có tổng công suất tính toán toàn Xí nghiệp (chưa kể đến hao tổn công suất trên đường đây) = 287.48 kVA, thời gian sử dụng công suất tối đa = 5100 h
 
@@ -139,20 +139,39 @@ $$
    X_{HT} = \frac{U_{CB}^2}{S_k} = \frac{0.4^2}{180} = 0.89 \times 10^{-3} \Omega
 $$
 
+>>l là chiều dài dây dẫn từ trạm biến áp tới phân xưởng xa nhất
+
+$$
+   R_C = r_0 \times l = 150.1 \times 10^{-3} \Omega
+$$
+
+$$
+   X_C = x_0 \times l = 9.4 \times 10^{-3} \Omega
+$$
+
 >>Điện trở ngắn mạch tại điểm thanh cái máy biến áp (N1):
 
 $$
-   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(7.775^2 + (0.89 + 15.98)) = 18.59 \times 10^{-3} \Omega
+   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(7.775^2 + (0.89 + 15.98)^2) \times 10^{-3} = 18.59 \times 10^{-3} \Omega
 $$
 
->>Dòng điện ngắn mạch 3 Pha:
+>>Dòng điện ngắn mạch 3 Pha tại điểm N1:
 
 $$
    I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 18.59} = 12.31 kA
 $$
 
+>>Điện trở ngắn mạch tại Phân xưởng xa nhất(N2):
 
+$$
+   Z_{kt} N2 = X_{HT} + Z_{BA} = \sqrt((7.775 + R_C)^2 + (0.89 + 15.98 + X_C)^2) \times 10^{-3} = 160.05 \times 10^{-3} \Omega
+$$
 
+>>Dòng điện ngắn mạch 3 Pha tại điểm N2:
+
+$$
+   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 160.05} = 1.44 kA
+$$
 
 
  
