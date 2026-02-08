@@ -90,13 +90,13 @@ $$
    k_{đk} = \frac{S_{tb}}{S_{XN}} = \frac{167.63}{287.48} = 0.58
 $$
 
->>Chọn 02 Máy biến áp có công suất 2 x 250 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
+=> Chọn 02 Máy biến áp có công suất 2 x 250 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
 
 $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
 $$
 
-**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch Uk = 4 kV**
+**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch Uk% = 4 = 22*0.06 = 0.88 kV**
 
 >>Tổn hao công suất không tải và tổn hao ngắn mạch (P0, Pk)
 
@@ -113,7 +113,7 @@ $$
 >>Điện trở BA
 
 $$
-   R_{BA} = \frac{\Delta P_k \cdot U^2}{S_{BA}^2} = \frac{3.15 \cdot 0.4^2}{180 \times 10^{-3}} = 15.55 . 10^{-3} \Omega
+   R_{BA} = \frac{\Delta P_k \cdot U^2}{S_{BA}^2} = \frac{2.6 \cdot 0.4^2}{250 \times 10^{-3}} = 15.55 . 10^{-3} \Omega
 $$
 
 >>Tổng trở BA
