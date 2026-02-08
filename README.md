@@ -328,7 +328,7 @@ $$
 </table>
  <h3>2. Principle diagram of the distribution station</h3>
  <p>The distribution substation is designed with two 180 kVA, Y/Y, 22/0.4kV transformers connected to busbars C1 and C2 of size 50x6 mm2. The conductors from the power source to the substation are AC-35 aluminum wires.. A connecting circuit breaker (ACB 03) connects two busbars. In case of a fault or when maintenance or transformer replacement is needed. One of the two Circuit breakers will trip, and Circuit breaker 03 will close to power supply on the other side.</p>
- <p>Trạm phân phối được thiết kế với 02 máy biến áp 180 kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1 và C2 kích thước 50x6 mm2, dây dẫn từ nguồn tới trạm biến áp là dây nhôm AC-35. Một máy cắt liên lạc ACB 03 nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì, thay thế Máy biến áp, 1 trong 2 Máy cắt ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho các phụ tải phía bên kia.</p>
+ <p>Trạm phân phối được thiết kế với 02 máy biến áp 180 kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1 và C2 kích thước 50x6 mm2, dây dẫn từ nguồn tới trạm biến áp là dây nhôm AC-35. Một máy cắt liên lạc ACB 03 nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì, thay thế máy biến áp, 1 trong 2 máy cắt ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho các phụ tải phía bên kia.</p>
  <p align="center">
   <img src="assets/distribution_station_principle.PNG" alt="hi" width="840" height="540">
 </p>
