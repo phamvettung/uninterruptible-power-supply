@@ -26,8 +26,10 @@
   <img src="assets/electrical_calculation2.jpg" alt="hi" width="840" height="540">
 </p>
 
-<h4>a. Xác định phụ tải tính toán của toán xí nghiệp</h4>
-<p>Hệ số sử dụng:</p>
+#### a. Xác định phụ tải tính toán của toàn xí nghiệp
+
+**Hệ số sử dụng:**
+
 $$
 K_{sd} = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i}
 $$
