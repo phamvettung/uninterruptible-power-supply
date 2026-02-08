@@ -25,6 +25,11 @@
 <p align="center">
   <img src="assets/electrical_calculation2.jpg" alt="hi" width="840" height="540">
 </p>
+
+<h4>a. Xác định phụ tải tính toán của toán xí nghiệp</h4>
+<p>Hệ số sử dụng: Ksd= Σ(Si \times Ksdi) \div ΣSi = </p>
+
+ 
 <h3>1. Calculate the selection of ACB, MCCB Table</h3>
  <table align="center">
   <thead>
