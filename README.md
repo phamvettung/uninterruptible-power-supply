@@ -4,21 +4,21 @@
 </div>
 
 ## Content
-- [Abstract](#Abstract)
-- [Power Supply Design for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
-- [Control Panel Design](#control-panel-design)
-- [SCADA for Power System](#SUPERVISORY-CONTROL-AND-DATA-ACQUISITION-FOR-POWER-SYSTEM)
-- [Demonstration](#demonstration)
-- [Requirements](#requirements)
-- [References](#references)
+- [1. Abstract](#Abstract)
+- [2. Design of Uninterruptible Power Supply for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
+- [3. Design of Control cabinet](#control-panel-design)
+- [4. SCADA for Power System](#SUPERVISORY-CONTROL-AND-DATA-ACQUISITION-FOR-POWER-SYSTEM)
+- [5. Demonstration](#demonstration)
+- [6. Requirements](#requirements)
+- [7. References](#references)
 
-# ABSTRACT
+# I. ABSTRACT
 <div>
  <p>This project is a modern SCADA model for the electrical system of an industrial plant. The model is developed based on the TCP/IP protocol, with the advantage of flexibility in building your own protocol and real-time communication.</p>
 <p>Dự án là mô hình SCADA hiện đại cho một Xí nghiệp công nghiệp. Mô hình được phát triển dựa trên giao thức TCP/IP, với ưu điểm linh hoạt trong việc tự định nghĩa giao thức và khả năng truyền thông theo thời gian thực.</p>
 </div>
 
-# DESIGNING A POWER SUPPLY FOR AN INDUSTRIAL PLANT
+# II. DESIGN OF UNINTERRUPTIBLE POWER SUPPLY FOR AN INDUSTRIAL PLANT
 <div>
  <p>Design a power supply for an industrial enterprise comprising 6 workshops, with power sourced from a 22kV connection point. Maximum power usage time Tmax = 5100 hours. Type I and Type II loads account for 75%. Short-circuit power at the connection point = 180 MVA. The calculated data is shown below.</p>
 <p>Thiết kế hệ thống cấp điện cho một Xí nghiệp công nghiệp gồm 6 Phân xưởng, nguồn điện được lấy từ điểm đấu điện của lưới 22kV. Thời gian sử dụng công suất tối đa Tmax = 5100h. Phụ tải loại I, loại II chiếm 75%. Công suất ngắn mạch tại điểm đấu điện = 180 MVA. Các số liệu tính toán được thể hiện ở bên dưới.</p>
@@ -334,7 +334,7 @@ $$
 </p>
 </div>
 
-# CONTROL PANEL DESIGN
+# III. DESIGN OF CONTROL CABINET
 <div>
  <p>In this project, a PLC FX5UJ is used to control 03 main circuit breakers and to retrieve the on/off status of 03 ACBs and 06 MCCBs. The FX5 485ADP module is used to communicate with the electricity meters via the RS-485 protocol. College data of the current, voltage, power, energy consumption.</p>
  <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt chính và nhận tín hiệu trạng thái ON/OFF 03 ACB và 06 MCCB. Module truyền thông RS-485 được sử dụng để kết nối với các đồng hồ đo điện, thu thập dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
@@ -368,7 +368,7 @@ $$
 </p>
 </div>
 
-# SUPERVISORY CONTROL AND DATA ACQUISITION FOR POWER SYSTEM
+# IV. SUPERVISORY CONTROL AND DATA ACQUISITION FOR POWER SYSTEM
 <div>
   <p>A SCADA software was developed to control and monitor equipment remotely via a web browser. Energy data is collected automatically in real time. All the technologies used and communication protocols are presented below.</p>
  <p>Phần mềm SCADA sử dụng để điều khiển, giám sát trạng thái của thiết bị từ xa thông qua trình duyệt web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả bên dưới đây.</p>
@@ -461,7 +461,7 @@ $$
 
 </div>
 
-# DEMONSTRATION
+# V. DEMONSTRATION
 <div>
 
 <p align="center">
@@ -479,7 +479,7 @@ $$
  
 </div>
 
-# REQUIREMENTS
+# 6. REQUIREMENTS
 <div>
 <p>Back-end</p>
 <ul>
@@ -514,7 +514,7 @@ $$
 </ul>
 <p>Languages: Java, JavaScript, HTML & CSS, JSX</p>
 
-# REFERENCES
+# 7. REFERENCES
 [1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh
 
 
