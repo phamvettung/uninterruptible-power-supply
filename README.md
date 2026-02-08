@@ -43,7 +43,7 @@ $$
 **- Hệ số công suất trung bình của toàn Xí nghiệp:**
 
 $$
-\cos \varphi XN = \frac{\sum (S_i \times \cos_{\varphi,i})}{\sum S_i} = 0.75 => \sin \varph = \sqrt{1-\pow{\cos \varphi, 2}} = 0.66
+\cos \varphi XN = \frac{\sum (S_i \times \cos_{\varphi,i})}{\sum S_i} = 0.75 => \sin \varphi = \sqrt{1-\cos^2 \varphi} = 0.66
 $$
 
  
