@@ -181,7 +181,7 @@ $$
    I = \frac{S_{XN}}{\sqrt(3) \times U} = \frac{287.47}{\sqrt(3) \times 0.4} = 414.93 A
 $$
 
-**Chọn thanh cái dẹt bằng đồng có Jkt = 1.8 A/mm2, tiết diện dây cần thiết cho thanh cái:**
+>>Chọn thanh cái dẹt bằng đồng có Jkt = 1.8 A/mm2, tiết diện dây cần thiết cho thanh cái:
 
 $$
    F = \frac{I}{J_{kt}} = \frac{414.93}{1.8} = 230.51 \text{mm}^2
