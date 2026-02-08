@@ -119,7 +119,7 @@ $$
 >>Tổng trở BA
 
 $$
-   Z_{BA} = \frac{\Delta U_k \cdot U^2}{S_{BA}} = \frac{4 \cdot 0.4^2}{100 * 250} = 0.0256 \Omega
+   Z_{BA} = \frac{\Delta U_k \cdot U^2}{100 * S_{BA}} = \frac{4 \cdot 0.4^2}{100 * 250} = 0.0256 \Omega
 $$
 
 >>Điện kháng BA
