@@ -27,7 +27,10 @@
 </p>
 
 <h4>a. Xác định phụ tải tính toán của toán xí nghiệp</h4>
-<p>Hệ số sử dụng: Ksd= Σ(Si \times Ksdi) \div ΣSi = </p>
+<p>Hệ số sử dụng:</p>
+$$
+K_{sd} = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i}
+$$
 
  
 <h3>1. Calculate the selection of ACB, MCCB Table</h3>
