@@ -3,7 +3,7 @@
  <h2>HỆ THỐNG ĐIỀU KHIỂN, GIÁM SÁT VÀ THU THẬP DỮ LIỆU ĐIỆN NĂNG TIÊU THỤ TRONG XÍ NGHIỆP CÔNG NGHIỆP</h2>
 </div>
 
-## Content
+## Contents
 - [1. Abstract](#Abstract)
 - [2. Design of Uninterruptible Power Supply for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
 - [3. Design of Control cabinet](#control-panel-design)
