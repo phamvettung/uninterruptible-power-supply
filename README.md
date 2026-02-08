@@ -52,6 +52,10 @@ $$
 S_{XN} = K_{nc}XN \times \sum S_i = 0.743 \times 386.75 = 287.48
 $$
 
+$$
+P_{XN} = S_{XN} \times \cos \varphi_{XN} = 0.75 \times 287.48 = 215.781
+$$
+
  
 <h3>1. Calculate the selection of ACB, MCCB Table</h3>
  <table align="center">
