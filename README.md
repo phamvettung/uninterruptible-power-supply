@@ -49,11 +49,15 @@ $$
 **- Tổng công suất tính toán của toàn Xí nghiệp:**
 
 $$
-S_{XN} = K_{nc}XN \times \sum S_i = 0.743 \times 386.75 = 287.48
+S_{XN} = K_{nc}XN \times \sum S_i = 0.743 \times 386.75 = 287.48 kVA
 $$
 
 $$
-P_{XN} = S_{XN} \times \cos \varphi_{XN} = 0.75 \times 287.48 = 215.781
+P_{XN} = S_{XN} \times \cos \varphi_{XN} = 0.75 \times 287.48 = 215.781 kW
+$$
+
+$$
+Q_{XN} = S_{XN} \times \sin \varphi_{XN} = 0.66 \times 287.48 = 189.95 kVAr
 $$
 
  
