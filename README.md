@@ -96,7 +96,7 @@ $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
 $$
 
-**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch phần trăm Uk% = 4 => Uk = 22*0.04 = 0.88 kV**
+**- Tham số của máy biến áp dòng THIBIDI: công suất định mức 250 kVA, điện áp ngắn mạch phần trăm Uk% = 4 => Uk = 22*0.04 = 0.88 kV**
 
 >>Tổn hao công suất không tải và tổn hao ngắn mạch (P0, Pk)
 
@@ -125,7 +125,7 @@ $$
 >>Điện kháng BA
 
 $$
-   X_{BA} = \sqrt((1.664)^2 - (0.5632)^2) = 1.565 \times 10^{-3} \Omega
+   X_{BA} = \sqrt(1.664^2 - 0.5632^2) = 1.565 \times 10^{-3} \Omega
 $$
 
 >>Khi 2 biến áp làm việc song song
@@ -133,10 +133,16 @@ $$
 $$R_{BA} = \frac{1.664}{2} = 0.832 \Omega$$ $$X_{BA} = \frac{1.565}{2} = 0.7825 \Omega$$
 
 **- Tính toán ngắn mạch:**
->>Công suất ngắn mạch tại điểm đấu điện là Sk = 180 MVA, vậy điện trở của hệ thống là:
+>>Dòng điện định mức của biến áp:
 
 $$
-   X_{HT} = \frac{U_{CB}^2}{S_k} = \frac{0.4^2}{180} = 0.89 \times 10^{-3} \Omega
+   I_{đm}BA = \frac{S_{đm}BA}{\sqrt(3) \times U} = \frac{250}{\sqrt(3) \times 0.4} = 360.84 A
+$$
+
+>>Dòng điện ngắn mạch tại điểm thanh cái hạ áp của biến áp:
+
+$$
+   I_{đm}BA = \frac{I_{đm}BA}{Uk%} = \frac{360.84}{0.04} = 9.021 kA
 $$
 
 >>l là chiều dài dây dẫn từ trạm biến áp tới phân xưởng xa nhất
@@ -152,13 +158,13 @@ $$
 >>Điện trở ngắn mạch tại điểm thanh cái máy biến áp (N1):
 
 $$
-   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(0.832^2 + (0.89 + 5.632 \times 10^{-6})^2) = 1.624 \Omega
+   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(0.832^2 + (0.89 + 0.5632)^2) = 1.674 \times 10^{-3} \Omega
 $$
 
 >>Dòng điện ngắn mạch 3 Pha tại điểm N1:
 
 $$
-   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 1.624} = 12.31 kA
+   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 1.674} = 12.31 kA
 $$
 
 >>Điện trở ngắn mạch tại Phân xưởng xa nhất(N2):
