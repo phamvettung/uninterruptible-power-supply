@@ -212,7 +212,7 @@ $$
       <td>Tủ Phân phối 01</td>
       <td>ACB 01</td>
       <td>316.07</td>
-      <td>12.72</td>
+      <td>12.31</td>
       <td>690</td>
       <td>630</td>
       <td>65</td>
@@ -225,7 +225,7 @@ $$
       <td>Tủ Phân phối 02</td>
       <td>ACB 02</td>
       <td>316.07</td>
-      <td>12.72</td>
+      <td>12.31</td>
       <td>690</td>
       <td>630</td>
       <td>65</td>
@@ -238,7 +238,7 @@ $$
       <td>Máy Cắt 03</td>
       <td>ACB 03</td>
       <td>316.07</td>
-      <td>12.72</td>
+      <td>12.31</td>
       <td>690</td>
       <td>630</td>
       <td>65</td>
