@@ -113,7 +113,7 @@ $$
 >>Điện trở BA
 
 $$
-   R_{BA} = \frac{\Delta P_k \cdot U^2}{S_{BA}^2} = \frac{2.6 \cdot 0.4^2}{250} = 1.664 \times 10^{-3} \Omega
+   R_{BA} = \frac{\Delta P_k}{3 \times I_{đm}^2} = \frac{2.6}{3 \times 360.84^2} = 0.0067 \Omega
 $$
 
 >>Tổng trở BA
