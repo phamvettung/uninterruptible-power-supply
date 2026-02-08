@@ -139,7 +139,7 @@ $$
    I_{đm}BA = \frac{S_{đm}BA}{\sqrt(3) \times U} = \frac{250}{\sqrt(3) \times 0.4} = 360.84 A
 $$
 
->>Dòng điện ngắn mạch tại điểm thanh cái hạ áp của biến áp (N1):
+>>Dòng điện ngắn mạch 3 pha tại thanh cái hạ áp của biến áp (N1):
 
 $$
    I_{sc}N1= \frac{I_{đm}BA}{Uk%} = \frac{360.84}{0.04} = 9.021 kA
@@ -148,18 +148,18 @@ $$
 >>Tính toán ngắn mạch cho phụ tải ở xa trạm biến áp nhất (Phân xưởng 01, điểm N2): dây đồng 35mm2, chiều dài 160m, điện trở suất dây đồng = 0.0178, điện kháng Xd = 0.00008
 
 $$
-   R_{tổng} = R_BA + \rho \times \frac{l}{35} = 0.0067 + 0.0813 = 0.088 /Omega
+   R_{tổng} = R_{BA} + \rho \times \frac{l}{35} = 0.0067 + 0.0813 = 0.088 /Omega
 $$
 
 $$
-   X_{tổng} = X_BA + Xd \times l = 0.0247 + 0.00008 \times 160 = 0.0357 \Omega
+   X_{tổng} = X_{BA} + Xd \times l = 0.0247 + 0.00008 \times 160 = 0.0357 \Omega
 $$
 
 $$
    Z_{tổng} = \sqrt((0.088)^2 + (0.0357)^2) = 0.094 \Omega
 $$
 
->>Dòng điện ngắn mạch 3 Pha tại điểm N2:
+>>Dòng điện ngắn mạch 3 pha tại điểm N2:
 
 $$
    I_{sc}N2 = \frac{U}{\sqrt(3) \times Z_{tổng}} = \frac{400}{\sqrt(3) \times 0.094} = 2.45 kA
