@@ -173,9 +173,23 @@ $$
    I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 160.05} = 1.44 kA
 $$
 
+#### c. Chọn thanh cái hạ áp của trạm biến áp
 
- 
-<h3>1. Calculate the selection of ACB, MCCB Table</h3>
+**- Dòng điện chạy qua thanh cái**
+
+$$
+   I = \frac{S_{XN}}{\sqrt(3) \times U} = \frac{287.47}{\sqrt(3) \times 0.4} = 414.93 A
+$$
+
+**Chọn thanh cái dẹt bằng đồng có Jkt = 1.8 A/mm2, tiết diện dây cần thiết cho thanh cái:**
+
+$$
+   F = \frac{I}{J_{kt}} = \frac{414.93}{1.8} = 230.51 \text{mm}^2
+$$
+
+>>Chọn thanh cái có kích thước 50x6 = 300 mm2
+
+<h3>1. Selecting MCCB and ACB</h3>
  <table align="center">
   <thead>
     <tr>
