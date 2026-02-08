@@ -29,7 +29,6 @@
 #### a. Xác định phụ tải tính toán của toàn xí nghiệp
 
 **Hệ số sử dụng:**
-
 $$
 K_{sd} = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i}
 $$
