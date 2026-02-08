@@ -336,8 +336,8 @@ $$
 
 # III. DESIGN OF CONTROL CABINET
 <div>
- <p>In this project, a PLC FX5UJ is used to control 03 main circuit breakers. Retrieve the on/off status of 03 ACBs and 06 MCCBs. The FX5 485ADP module is used to communicate with the electricity meters via the RS-485 protocol. College data of the current, voltage, power, energy consumption.</p>
- <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt chính. Nhận tín hiệu trạng thái ON/OFF của 03 ACB và 06 MCCB. Module truyền thông RS-485 FX5-485ADP được sử dụng để kết nối với các đồng hồ đo điện, thu thập dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
+ <p>In this project, a PLC FX5UJ is used to control 03 main circuit breakers. Retrieve the on/off status of 03 ACBs and 06 MCCBs. The FX5-485ADP module is used to communicate with the electricity meters via the RS-485 protocol. College data of the current, voltage, power, energy consumption.</p>
+ <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt chính. Nhận tín hiệu trạng thái ON/OFF của 03 ACB và 06 MCCB. Module truyền thông FX5-485ADP được sử dụng để kết nối với các đồng hồ đo điện, thu thập dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
 <h3>1. Control Panel Layout</h3>
  <p align="center">
   <img src="assets/internal_cabinet_layout.PNG" alt="hi" width="840" height="540">
@@ -370,11 +370,11 @@ $$
 
 # IV. SUPERVISORY CONTROL AND DATA ACQUISITION FOR POWER SYSTEM
 <div>
-  <p>A SCADA software was developed to control and monitor equipment remotely via a web browser. Energy data is collected automatically in real time. All the technologies used and communication protocols are presented below.</p>
- <p>Phần mềm SCADA sử dụng để điều khiển, giám sát trạng thái của thiết bị từ xa thông qua trình duyệt web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả bên dưới đây.</p>
+  <p>The SCADA software used to control and monitor equipment remotely via a Web browser. Energy data is collected automatically in real time. All the technologies used and communication protocols are presented below.</p>
+ <p>Phần mềm SCADA sử dụng để điều khiển, giám sát trạng thái của thiết bị từ xa thông qua trình duyệt Web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả bên dưới đây.</p>
 <h3>1. Diagram of Technology</h3>
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
- <p>Bộ điều khiển PLC giao tiếp với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị thông qua Module truyền thông RS-485 và các cổng vào ra số.</p>
+ <p>Bộ điều khiển PLC truyền thông với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị ở hiện trường thông qua chuẩn truyền thông Modbus RS-485 và các cổng vào/ra số.</p>
 <p align="center">
   <img src="assets/tech_diagram2.PNG" alt="hi" width="840" height="540">
 </p>
