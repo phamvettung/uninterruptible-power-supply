@@ -96,7 +96,7 @@ $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
 $$
 
-**- Tham số của máy biến áp dòng THIBIDI: công suất định mức 250 kVA, điện áp ngắn mạch phần trăm Uk% = 4 => Uk = 22*0.04 = 0.88 kV**
+**- Tham số của máy biến áp dòng THIBIDI: công suất định mức 250 kVA, điện áp ngắn mạch phần trăm Uk% = 4**
 
 >>Tổn hao công suất không tải và tổn hao ngắn mạch (P0, Pk)
 
@@ -119,13 +119,13 @@ $$
 >>Tổng trở BA
 
 $$
-   Z_{BA} = \frac{\Delta U_k \cdot U^2}{S_{BA}} = \frac{0.88 \cdot 0.4^2}{250} = 0.5632 \times 10^{-3} \Omega
+   Z_{BA} = \frac{\Delta U_k \cdot U^2}{S_{BA}} = \frac{4 \cdot 0.4^2}{100 * 250} = 0.0256 \Omega
 $$
 
 >>Điện kháng BA
 
 $$
-   X_{BA} = \sqrt(1.664^2 - 0.5632^2) = 1.565 \times 10^{-3} \Omega
+   X_{BA} = \sqrt(0.0067^2 - 0.0256^2) = 0.0247 \Omega
 $$
 
 >>Khi 2 biến áp làm việc song song
@@ -139,44 +139,30 @@ $$
    I_{đm}BA = \frac{S_{đm}BA}{\sqrt(3) \times U} = \frac{250}{\sqrt(3) \times 0.4} = 360.84 A
 $$
 
->>Dòng điện ngắn mạch tại điểm thanh cái hạ áp của biến áp:
+>>Dòng điện ngắn mạch tại điểm thanh cái hạ áp của biến áp (N1):
 
 $$
-   I_{đm}BA = \frac{I_{đm}BA}{Uk%} = \frac{360.84}{0.04} = 9.021 kA
+   I_{sc}N1= \frac{I_{đm}BA}{Uk%} = \frac{360.84}{0.04} = 9.021 kA
 $$
 
->>l là chiều dài dây dẫn từ trạm biến áp tới phân xưởng xa nhất
+>>Tính toán ngắn mạch cho phụ tải ở xa trạm biến áp nhất (Phân xưởng 01, điểm N2): dây đồng 35mm2, chiều dài 160m, điện trở suất dây đồng = 0.0178, điện kháng Xd = 0.00008
 
 $$
-   R_C = r_0 \times l = 150.1 \times 10^{-3} \Omega
+   R_{tổng} = R_BA + \rho \times \frac{l}{35} = 0.0067 + 0.0813 = 0.088 /Omega
 $$
 
 $$
-   X_C = x_0 \times l = 9.4 \times 10^{-3} \Omega
+   X_{tổng} = X_BA + Xd \times l = 0.0247 + 0.00008 \times 160 = 0.0357 \Omega
 $$
 
->>Điện trở ngắn mạch tại điểm thanh cái máy biến áp (N1):
-
 $$
-   Z_{kt} N1 = X_{HT} + Z_{BA} = \sqrt(0.832^2 + (0.89 + 0.5632)^2) = 1.674 \times 10^{-3} \Omega
-$$
-
->>Dòng điện ngắn mạch 3 Pha tại điểm N1:
-
-$$
-   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 1.674} = 12.31 kA
-$$
-
->>Điện trở ngắn mạch tại Phân xưởng xa nhất(N2):
-
-$$
-   Z_{kt} N2 = X_{HT} + Z_{BA} = \sqrt((7.775 + R_C)^2 + (0.89 + 5.632 \times 10^{-3} + X_C)^2) \times 10^{-3} = 160.05 \times 10^{-3} \Omega
+   Z_{tổng} = \sqrt((0.088)^2 + (0.0357)^2) = 0.094 \Omega
 $$
 
 >>Dòng điện ngắn mạch 3 Pha tại điểm N2:
 
 $$
-   I_{k} N1 = \frac{U}{\sqrt(3) \times Z_{kt}} = \frac{400}{\sqrt(3) \times 160.05} = 1.44 kA
+   I_{sc}N2 = \frac{U}{\sqrt(3) \times Z_{tổng}} = \frac{400}{\sqrt(3) \times 0.094} = 2.45 kA
 $$
 
 #### c. Chọn thanh cái hạ áp của trạm biến áp
@@ -218,7 +204,7 @@ $$
       <td>Tủ Phân phối 01</td>
       <td>ACB 01</td>
       <td>414.93</td>
-      <td>12.31</td>
+      <td>9.021</td>
       <td>690</td>
       <td>630</td>
       <td>65</td>
@@ -231,7 +217,7 @@ $$
       <td>Tủ Phân phối 02</td>
       <td>ACB 02</td>
       <td>414.93</td>
-      <td>12.31</td>
+      <td>9.021</td>
       <td>690</td>
       <td>630</td>
       <td>65</td>
@@ -244,7 +230,7 @@ $$
       <td>Máy Cắt 03</td>
       <td>ACB 03</td>
       <td>414.93</td>
-      <td>12.31</td>
+      <td>9.021</td>
       <td>690</td>
       <td>630</td>
       <td>65</td>
@@ -257,7 +243,7 @@ $$
       <td>Tủ Phân xưởng 01</td>
       <td>MCCB 01</td>
       <td>110.17</td>
-      <td>1.44</td>
+      <td>2.45</td>
       <td>690</td>
       <td>160</td>
       <td>36</td>
@@ -270,7 +256,7 @@ $$
       <td>Tủ Phân xưởng 02</td>
       <td>MCCB 02</td>
       <td>113.43</td>
-      <td>1.44</td>
+      <td>2.45</td>
       <td>690</td>
       <td>160</td>
       <td>36</td>
@@ -283,7 +269,7 @@ $$
       <td>Tủ Phân xưởng 03</td>
       <td>MCCB 03</td>
       <td>103.75</td>
-      <td>1.44</td>
+      <td>2.45</td>
       <td>690</td>
       <td>160</td>
       <td>36</td>
@@ -296,7 +282,7 @@ $$
       <td>Tủ Phân xưởng 04</td>
       <td>MCCB 04</td>
       <td>103.71</td>
-      <td>1.44</td>
+      <td>2.45</td>
       <td>690</td>
       <td>160</td>
       <td>36</td>
@@ -309,7 +295,7 @@ $$
       <td>Tủ Phân xưởng 05</td>
       <td>MCCB 05</td>
       <td>60.74</td>
-      <td>1.44</td>
+      <td>2.45</td>
       <td>690</td>
       <td>160</td>
       <td>36</td>
@@ -322,7 +308,7 @@ $$
       <td>Tủ Phân xưởng 06</td>
       <td>MCCB 06</td>
       <td>99.26</td>
-      <td>1.44</td>
+      <td>2.45</td>
       <td>690</td>
       <td>160</td>
       <td>36</td>
