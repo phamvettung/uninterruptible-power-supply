@@ -60,6 +60,21 @@ $$
 Q_{XN} = S_{XN} \times \sin \varphi_{XN} = 0.66 \times 287.48 = 189.95 kVAr
 $$
 
+**- Chọn dây dẫn từ nguồn đến trạm biến áp**
+
+**Dòng điện chạy trên dây dẫn:**
+
+$$
+   I = \frac{S_{XN}}{\sqrt(3) \times U} = \frac{287.48}{\sqrt(3) \times 22} = 7.544 A
+$$
+
+**Tiết diện dây nhôm theo mật độ dòng điện kinh tế (Jkt = 1.2 A/mm2). Đối với đường dây cao áp tiết diện tối thiểu không nhỏ hơn 35mm2 => Ta chọn dây AC-35 nối từ nguồn vào trạm biến áp**
+
+$$
+   F = \frac{I}{J_{kt}} = \frac{7.544}{1.2} = 6.28 \text{mm}^2
+$$
+
+
  
 <h3>1. Calculate the selection of ACB, MCCB Table</h3>
  <table align="center">
