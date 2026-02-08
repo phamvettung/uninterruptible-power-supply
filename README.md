@@ -31,7 +31,7 @@
 **- Hệ số sử dụng của toàn Xí nghiệp:**
 
 $$
-K_{sd} = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i} = 0.566
+K_{sd}XN = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i} = 0.566
 $$
 
 **- Hệ số nhu cầu của Xí nghiệp:**
