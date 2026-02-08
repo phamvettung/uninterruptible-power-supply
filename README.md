@@ -23,7 +23,7 @@
  <p>Design a power supply for an industrial enterprise comprising 6 workshops, with power sourced from a 22kV connection point. Maximum power usage time Tmax = 5100 hours. Type I and Type II loads account for 75%. Short-circuit power at the connection point = 180 MVA. The calculated data is shown below.</p>
 <p>Thiết kế hệ thống cấp điện cho một Xí nghiệp công nghiệp gồm 6 Phân xưởng, nguồn điện được lấy từ điểm đấu điện của lưới 22kV. Thời gian sử dụng công suất tối đa Tmax = 5100h. Phụ tải loại I, loại II chiếm 75%. Công suất ngắn mạch tại điểm đấu điện = 180 MVA. Các số liệu tính toán được thể hiện ở bên dưới.</p>
 <p align="center">
-  <img src="assets/electrical_calculation2.jpg" alt="hi" width="840" height="540">
+  <img src="assets/electrical_calculation3.jpg" alt="hi" width="840" height="540">
 </p>
 
 #### a. Xác định phụ tải tính toán của toàn xí nghiệp
