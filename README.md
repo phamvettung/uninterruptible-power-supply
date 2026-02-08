@@ -84,17 +84,30 @@ $$
    S_{tb} = \frac{S_{XN} \times T_{max}}{8760} = \frac{287.48 \times 5100}{8760} = 167.36 kVA
 $$
 
-**- Hệ số điền kín đồ thị phụ tải = 0.58 < 0.75. Như vậy Máy biến áp có thể làm việc quá tải 40% (1.4) trong một thời gian xác định.**
+**- Hệ số điền kín đồ thị phụ tải = 0.58 < 0.75. Như vậy Máy biến áp có thể làm việc quá tải 40% (1.4) trong một thời gian xác định**
 
 $$
    k_{đk} = \frac{S_{tb}}{S_{XN}} = \frac{167.63}{287.48} = 0.58
 $$
 
-**Chọn 02 Máy biến áp có công suất 2 x 180 kVA, hệ số quá tải = 1.59 < 1.4 => đảm bảo yêu cầu**
+**Chọn 02 Máy biến áp có công suất 2 x 180 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu**
 
 $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{180} = 1.59 < 1.4
 $$
+
+**- Tham số của máy biến áp: công suất định mức 180 kVA, điện áp ngắn mạch 4 kV**
+
+**hao tổn công suất**
+
+$$
+   \Delta P_{0}= 0.53 kW
+$$
+
+$$
+   \Delta P_{k}= 3.15 kW
+$$
+
 
 
 
