@@ -28,16 +28,22 @@
 
 #### a. Xác định phụ tải tính toán của toàn xí nghiệp
 
-**Hệ số sử dụng toàn Xí nghiệp:**
+**- Hệ số sử dụng của toàn Xí nghiệp:**
 
 $$
 K_{sd} = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i} = 0.566
 $$
 
-**Hệ số nhu cầu toàn Xí nghiệp:**
+**- Hệ số nhu cầu của Xí nghiệp:**
 
 $$
 K_{nc}XN = 0.566 + \frac{(1 - 0.566)}{\sqrt(6)} = 0.743
+$$
+
+**- Hệ số công suất trung bình của toàn Xí nghiệp:**
+
+$$
+\cos \varphi XN = \frac{\sum (S_i \times \cos_{\varphi,i})}{\sum S_i} = 0.75 => \sin \varph = \sqrt{1-\pow{\cos \varphi, 2}} = 0.66
 $$
 
  
