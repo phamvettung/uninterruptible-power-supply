@@ -96,7 +96,7 @@ $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
 $$
 
-**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch Uk% = 4 = 22*0.04 = 0.88 kV**
+**- Tham số của máy biến áp dòng THIBIDI/EMC: công suất định mức 250 kVA, điện áp ngắn mạch phần trăm Uk% = 4 => Uk = 22*0.04 = 0.88 kV**
 
 >>Tổn hao công suất không tải và tổn hao ngắn mạch (P0, Pk)
 
@@ -125,12 +125,12 @@ $$
 >>Điện kháng BA
 
 $$
-   X_{BA} = \sqrt((1.664 \times 10^{-3})^2 - (5.632 \times 10^{-6})^2) = 1.663 \times 10^{-3} \Omega
+   X_{BA} = \sqrt((1.664)^2 - (0.5632)^2) = 1.565 \times 10^{-3} \Omega
 $$
 
 >>Khi 2 biến áp làm việc song song
 
-$$R_{BA} = \frac{1.664}{2} = 0.832 \Omega$$ $$X_{BA} = \frac{1.663}{2} = 0.832 \Omega$$
+$$R_{BA} = \frac{1.664}{2} = 0.832 \Omega$$ $$X_{BA} = \frac{1.565}{2} = 0.7825 \Omega$$
 
 **- Tính toán ngắn mạch:**
 >>Công suất ngắn mạch tại điểm đấu điện là Sk = 180 MVA, vậy điện trở của hệ thống là:
