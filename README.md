@@ -28,10 +28,16 @@
 
 #### a. Xác định phụ tải tính toán của toàn xí nghiệp
 
-**Hệ số sử dụng:**
+**Hệ số sử dụng toàn Xí nghiệp:**
 
 $$
-K_{sd} = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i} = 0,56
+K_{sd} = \frac{\sum (S_i \times K_{sd,i})}{\sum S_i} = 0,566
+$$
+
+**Hệ số nhu cầu toàn Xí nghiệp:**
+
+$$
+K_{nc}XN = \frac{0.566 + {(1 + 0.566)}{\sqrt(6)} = 0,56
 $$
 
  
