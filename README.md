@@ -318,7 +318,7 @@ $$
  <p>The distribution substation is designed with two 250 kVA, Y/Y, 22/0.4kV transformers connected to busbars C1 and C2 of size 50x6 mm2. The conductors from the power source to the substation are AC-35 aluminum wires.. A connecting circuit breaker (ACB 03) connects two busbars. In case of a fault or when maintenance or transformer replacement is needed. One of the two Circuit breakers will trip, and Circuit breaker 03 will close to power supply on the other side.</p>
  <p>Trạm phân phối được thiết kế với 02 máy biến áp 250 kVA, Y/Y, 22/0.4kV kết nối tới 02 thanh cái C1 và C2 kích thước 50x6 mm2, dây dẫn từ nguồn tới trạm biến áp là dây nhôm AC-35. Một máy cắt liên lạc ACB 03 nối giữa 2 thanh cái. Khi có sự cố hay cần bảo trì, thay thế máy biến áp, 1 trong 2 máy cắt ngắt điện, máy cắt 03 sẽ đóng để cấp nguồn cho các phụ tải phía bên kia.</p>
  <p align="center">
-  <img src="assets/distribution_station_principle.PNG" alt="hi" width="840" height="540">
+  <img src="assets/distribution-station-principle.PNG" alt="hi" width="840" height="540">
 </p>
 </div>
 
@@ -328,11 +328,11 @@ $$
  <p>Dự án sử dụng PLC FX5UJ để điều khiển 03 máy cắt chính. Nhận tín hiệu trạng thái ON/OFF của 03 ACB và 06 MCCB. Module truyền thông FX5-485ADP được sử dụng để kết nối với các đồng hồ đo điện, thu thập dữ liệu năng lượng: dòng điện, điện áp, công suất tức thời, điện năng tiêu thụ.</p>
 <h3>1. Control cabinet layout</h3>
  <p align="center">
-  <img src="assets/internal_cabinet_layout.PNG" alt="hi" width="840" height="540">
+  <img src="assets/internal-cabinet-layout.PNG" alt="hi" width="840" height="540">
 </p>
  <h3>2. AC Power Distribution</h3>
  <p align="center">
-  <img src="assets/ac_power_distribution.PNG" alt="hi" width="840" height="540">
+  <img src="assets/ac-power-distribution.PNG" alt="hi" width="840" height="540">
 </p>
   <h3>3. DC Power Distribution</h3>
  <p align="center">
@@ -340,19 +340,19 @@ $$
 </p>
 <h3>4. Input wiring</h3>
  <p align="center">
-  <img src="assets/input_wiring.PNG" alt="hi" width="840" height="540">
+  <img src="assets/input-wiring.PNG" alt="hi" width="840" height="540">
 </p>
 <h3>5. Output wiring</h3>
  <p align="center">
-  <img src="assets/output_wiring.PNG" alt="hi" width="840" height="540">
+  <img src="assets/output-wiring.PNG" alt="hi" width="840" height="540">
 </p>
  <h3>6. Terminal to ACBs and MCCBs</h3>
  <p align="center">
-  <img src="assets/terminal_to_devices.PNG" alt="hi" width="840" height="540">
+  <img src="assets/terminal-to-cb.PNG" alt="hi" width="840" height="540">
 </p>
  <h3>7. Fx5-485ADP to the electrical meters</h3>
  <p align="center">
-  <img src="assets/fx485adp_to_meters.PNG" alt="hi" width="840" height="540">
+  <img src="assets/fx485adp-to-electrical-meters.PNG" alt="hi" width="840" height="540">
 </p>
 </div>
 
