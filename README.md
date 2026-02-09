@@ -467,7 +467,7 @@ $$
  
 </div>
 
-# 6. REQUIREMENTS
+# VI. REQUIREMENTS
 <div>
 <p>Back-end</p>
 <ul>
@@ -502,7 +502,7 @@ $$
 </ul>
 <p>Languages: Java, JavaScript, HTML & CSS, JSX</p>
 
-# 7. REFERENCES
+# VII. REFERENCES
 [1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh
 
 
