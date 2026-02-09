@@ -5,7 +5,7 @@
 
 ## Contents
 - [1. Abstract](#i-abstract)
-- [2. Design of Uninterruptible Power Supply for an Industrial Plant](#designing-a-power-supply-for-an-industrial-plant)
+- [2. Design of Uninterruptible Power Supply for an Industrial Plant](#ii-design-of-uninterruptible-power-supply-for-industrial-plant)
 - [3. Design of Control cabinet](#design-of-control-cabinet)
 - [4. SCADA for Power System](#SUPERVISORY-CONTROL-AND-DATA-ACQUISITION-FOR-POWER-SYSTEM)
 - [5. Demonstration](#demonstration)
