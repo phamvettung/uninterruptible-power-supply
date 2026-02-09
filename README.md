@@ -90,7 +90,7 @@ $$
    k_{đk} = \frac{S_{tb}}{S_{XN}} = \frac{167.63}{287.48} = 0.58
 $$
 
-=> Chọn 02 Máy biến áp có công suất 2 x 250 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
+=> Chọn 02 máy biến áp có công suất định mức 2 x 250 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
 
 $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
@@ -110,19 +110,19 @@ $$
 
 **- Tính toán trong máy biến áp:**
 
->>Điện trở BA
+>>Điện trở biến áp
 
 $$
    R_{BA} = \frac{\Delta P_k}{3 \times I_{đm}^2} = \frac{2.6}{3 \times 360.84^2} = 0.0067 \Omega
 $$
 
->>Tổng trở BA
+>>Tổng trở biến áp
 
 $$
    Z_{BA} = \frac{\Delta U_k \cdot U^2}{100 * S_{BA}} = \frac{4 \cdot 0.4^2}{100 * 250} = 0.0256 \Omega
 $$
 
->>Điện kháng BA
+>>Điện kháng biến áp
 
 $$
    X_{BA} = \sqrt(0.0067^2 - 0.0256^2) = 0.0247 \Omega
