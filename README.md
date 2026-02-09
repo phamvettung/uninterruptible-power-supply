@@ -144,7 +144,7 @@ $$
 >>Tính toán ngắn mạch cho phụ tải ở xa trạm biến áp nhất (Phân xưởng 01, điểm N2): dây đồng 35mm2, chiều dài 160m, điện trở suất dây đồng = 0.0178, điện kháng Xd = 0.00008
 
 $$
-   R_{tổng} = R_{BA} + \rho \times \frac{l}{35} = 0.0067 + 0.0813 = 0.088 /Omega
+   R_{tổng} = R_{BA} + \rho \times \frac{l}{35} = 0.0067 + 0.0813 = 0.088 \Omega
 $$
 
 $$
