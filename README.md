@@ -336,7 +336,7 @@ $$
 </p>
   <h3>3. DC Power Distribution</h3>
  <p align="center">
-  <img src="assets/dc_power_distribution.PNG" alt="hi" width="840" height="540">
+  <img src="assets/dc-power-distribution.PNG" alt="hi" width="840" height="540">
 </p>
 <h3>4. Input wiring</h3>
  <p align="center">
