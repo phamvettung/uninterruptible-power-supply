@@ -473,7 +473,7 @@ $$
 
 <h3>12. Managerment</h3>
 <p>Manages data on the installed capacity of each load, parameters of selected ACBs and MCCBs, account settings, along with search functionality combined with pagination.</p>
-<p>Quản lý dữ liệu về công suất đặt của từng Phân xưởng, thống số của ACB, MCCB đã chọn, cài đặt tài khoản, cùng với chức năng tìm kiếm kết hợp phân trang.</p>
+<p>Quản lý dữ liệu về công suất đặt của từng Phân xưởng, thông số của ACB, MCCB đã chọn, cài đặt tài khoản, cùng với chức năng tìm kiếm kết hợp phân trang.</p>
 <p align="center">
   <img src="assets/cabinet.PNG" alt="hi" width="840" height="540">
 </p>
