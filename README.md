@@ -457,7 +457,7 @@ $$
 <p>The Real-time Trend page displays an energy chart.</p>
 <p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
 <p align="center">
-  <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
+  <img src="assets/energy_check.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>9. Data Managerment</h3>
