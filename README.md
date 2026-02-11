@@ -1,6 +1,6 @@
 <div align="center">
  <h1>SUPERVISORY CONTROL AND DATA ACQUISITION ON ELECTRICITY IN INDUSTRIAL PLANTS</h1>
- <h2>HỆ THỐNG ĐIỀU KHIỂN, GIÁM SÁT VÀ THU THẬP DỮ LIỆU ĐIỆN NĂNG TIÊU THỤ TRONG XÍ NGHIỆP CÔNG NGHIỆP</h2>
+ <h2>HỆ THỐNG ĐIỀU KHIỂN, GIÁM SÁT VÀ THU THẬP DỮ LIỆU ĐIỆN NĂNG TRONG XÍ NGHIỆP CÔNG NGHIỆP</h2>
 </div>
 
 ## Contents
@@ -90,7 +90,7 @@ $$
    k_{đk} = \frac{S_{tb}}{S_{XN}} = \frac{167.63}{287.48} = 0.58
 $$
 
-=> Chọn 02 máy biến áp có công suất định mức 2 x 250 kVA, hệ số quá tải = 1.59 nhỏ hơn 1.4 => đảm bảo yêu cầu
+=> Chọn 02 máy biến áp có công suất định mức 2 x 250 kVA, hệ số quá tải = 0.99 nhỏ hơn 1.4 => đảm bảo yêu cầu
 
 $$
    k_{qt}= \frac{S_{XN}}{S_{nBA}} = \frac{287.48}{250} = 0.99 < 1.4
