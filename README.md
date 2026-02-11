@@ -429,7 +429,7 @@ $$
 ```
 <h3>7. Dashboard</h3>
 <p>The Dashboard page displays a monthly energy consumption breakdown for the year, yesterday's and today's energy usage, and the electricity bill amount.</p>
-<p>Trang Dashboard hiển thị bảng thống kê điện năng hàng tháng trong năm, mức tiêu thụ điện năng ngày hôm qua và trong ngày hôm nay, cùng với số tiền điện phải chi trả.</p>
+<p>Trang Dashboard hiển thị bảng thống kê điện năng hàng tháng trong năm, mức tiêu thụ điện năng ngày hôm qua và trong ngày hôm nay, cùng với số tiền điện phải chi trả. Giao diện SCADA còn cho phép cài đặt chế độ hiển thị sáng/tối, chọn ngôn ngữ hiển thị Tiếng Việt/Tiếng Anh.</p>
 <p align="center">
   <img src="assets/dashboard3.PNG" alt="hi" width="840" height="540">
 </p>
