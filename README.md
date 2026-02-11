@@ -110,6 +110,12 @@ $$
 
 **- Tính toán trong máy biến áp:**
 
+>>Dòng điện định mức của biến áp:
+
+$$
+   I_{đm}BA = \frac{S_{đm}BA}{\sqrt(3) \times U} = \frac{250}{\sqrt(3) \times 0.4} = 360.84 A
+$$
+
 >>Điện trở biến áp
 
 $$
@@ -129,11 +135,6 @@ $$
 $$
 
 **- Tính toán ngắn mạch:**
->>Dòng điện định mức của biến áp:
-
-$$
-   I_{đm}BA = \frac{S_{đm}BA}{\sqrt(3) \times U} = \frac{250}{\sqrt(3) \times 0.4} = 360.84 A
-$$
 
 >>Dòng điện ngắn mạch 3 pha tại thanh cái hạ áp của biến áp (N1):
 
