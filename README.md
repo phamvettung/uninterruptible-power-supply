@@ -458,14 +458,14 @@ $$
 <h3>11. Alarm</h3>
 <p>The Alarm page allows users to set alarm thresholds for daily electricity usage. Specifically:</p>
 <ul>
-  <li>A: amount of electricity used up to this point.</li>
-  <li>A0: amount of electricity used yesterday.</li>
+  <li>[A] amount of electricity used up to this point.</li>
+  <li>[A0]amount of electricity used yesterday.</li>
   <li>Accumulated electricity during the day = A - A0.</li>
 </ul>
 <p>Trang Alarm cho phép người dùng cài đặt ngưỡng cảnh báo về mức sử dụng điện năng trong ngày. Trong đó:</p>
 <ul>
-  <li>A: số điện năng đã tiêu thụ tính đến thời điểm hiện tại.</li>
-  <li>A0: số điện năng đã tiêu thụ ngày hôm qua.</li>
+  <li>[A] số điện năng đã tiêu thụ tính đến thời điểm hiện tại.</li>
+  <li>[A0]số điện năng đã tiêu thụ ngày hôm qua.</li>
   <li>Điện năng tích lũy trong ngày = A - A0.</li>
 </ul>
 <p align="center">
