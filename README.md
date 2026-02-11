@@ -369,47 +369,49 @@ $$
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Backend được xây dựng trên Spring Boot Framework. Frontend được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên bộ nhớ RAM, cho tốc độ truy vấn nhanh.</p>
+ <p>Backend được xây dựng trên Spring Boot Framework. Frontend được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh.</p>
 <p align="center">
   <img src="assets/tech_used.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>3. Table structure in Database</h3>
-<p>The database management system used in the project is MySQL, which includes 07 tables:</p>
+<p>The database management system used in the project is MySQL, which includes 10 tables:</p>
 <ul>
   <li>Tables users, user_role, role: for security, authentication, and user authorization features.</li>
   <li>Table cabinet: for managing electrical cabinets (TPP, MDB).</li>
   <li>Table device: for managing devices (ACB, MCCB).</li>
   <li>Table energy: for collecting energy data.</li>
   <li>Table tokens: for storing refresh token.</li>
+  <li>Table alarm, alarm_type, alarm_history: for alarm feature.</li>
 </ul>
-<p>Hệ quản trị cơ sở dữ liệu sử dụng trong dự án là MySQL gồm 07 bảng:</p>
+<p>Hệ quản trị cơ sở dữ liệu sử dụng trong dự án là MySQL gồm 10 bảng:</p>
 <ul>
   <li>Bảng users, user_role, role: cho tính năng bảo mật, xác thực và phân quyền người dùng.</li>
   <li>Bảng cabinet: quản lý tủ điện (TPP, MDB).</li>
   <li>Bảng device: quản lý thiết bị (ACB, MCCB).</li>
   <li>Bảng energy: thu thập dữ liệu về năng lượng.</li>
   <li>Bảng tokens: lưu trữ refresh token.</li>
+  <li>Bảng alarm, alarm_type, alarm_history: cho tính năng cảnh báo.</li>
 </ul>
 <p align="center">
   <img src="assets/upssdb.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>4. Authentication, Authorization and Security</h3>
-<p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc. Based on Spring Security JWT.</p>
-<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc.</p>
+<h3>4. Authentication, Authorization and Security (Spring Security JWT)</h3>
+<p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc.</p>
+<p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. </p>
 <p align="center">
   <img src="assets/security4.PNG" alt="hi" width="740" height="1040">
 </p>
 
-<h3>5. PLC to Server Protocol</h3>
+<h3>5. PLC-Server Protocol</h3>
 <p>A message used to transmit and receive data between a PLC and a server is defined by a byte array. Each message sent has a start (STX) and end character (ETX).</p>
 <p>Một bức điện có định dạng là mảng các byte dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi bức điện gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX).</p>
 <p align="center">
   <img src="assets/plc_api_spec2.jpg" alt="hi" width="840" height="540">
 </p>
 
-<h3>6. Server to User Protocol</h3>
+<h3>6. Server-User Protocol</h3>
 <p>The messages sent and received between the server and the user are in the format of a JSON like this.</p>
 <p>Thông điệp để truyền và nhận dữ liệu giữa Server và User có định dạng là một chuỗi JSON như bên dưới.</p>
 
