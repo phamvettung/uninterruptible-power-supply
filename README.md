@@ -368,9 +368,8 @@ $$
 </p>
 
 <h3>2. Technologies Used</h3>
-<p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Backend được xây dựng trên Spring Boot Framework. Frontend được xây dựng dựa trên thư viện ReactJS. 
-  Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh.</p>
+<p>The server-side (back-end) is built on Spring Boot Framework. The client-side (front-end) is built on ReactJS. This project also uses the Redis database management system, storing key-value data in RAM, resulting in fast query speeds and reduce the number of requests that need to be processed by the main server.</p>
+ <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và phía Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh và giảm số lượng request tới MySQL</p>
 <p align="center">
   <img src="assets/tech_used.PNG" alt="hi" width="840" height="540">
 </p>
@@ -450,22 +449,32 @@ $$
 </p>
 
 <h3>10. Analysis</h3>
-<p>The Analysis page provides a chart showing the daily energy consumption statistics for each workshop.</p>
+<p>The Analysis page provides a chart showing the daily energy consumption statistics for each load.</p>
 <p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
 <p align="center">
   <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>11. Alarm</h3>
-<p>The Real-time Trend page displays an energy chart.</p>
-<p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
+<p>The Alarm page allows users to set alarm thresholds for daily electricity usage. Specifically:</p>
+<ul>
+  <li>-A: amount of electricity used up to this point.</li>
+  <li>-A0: amount of electricity used yesterday.</li>
+  <li>-Accumulated electricity during the day = A - A0.</li>
+</ul>
+<p>Trang Alarm cho phép người dùng cài đặt ngưỡng cảnh báo về mức sử dụng điện năng trong ngày. Trong đó:</p>
+<ul>
+  <li>-A: số điện năng đã tiêu thụ tính đến thời điểm hiện tại.</li>
+  <li>-A0: số điện năng đã tiêu thụ ngày hôm qua.</li>
+  <li>-Điện năng tích lũy trong ngày = A - A0.</li>
+</ul>
 <p align="center">
   <img src="assets/energy_check.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>12. Data Managerment</h3>
-<p>This page manages electrical cabinets, equipment, and users, with features for filtering, searching, and pagination.</p>
-<p>Quản lý dữ liệu về tủ điện, thiết bị và tài khoản. Cung cấp tính năng lọc, tìm kiếm dữ liệu kết hợp phân trang.</p>
+<h3>12. Managerment</h3>
+<p>Manages data on the installed capacity of each load, parameters of selected ACBs and MCCBs, account settings, along with search functionality combined with pagination.</p>
+<p>Quản lý dữ liệu về công suất đặt của từng Phân xưởng, thống số của ACB, MCCB đã chọn, cài đặt tài khoản, cùng với chức năng tìm kiếm kết hợp phân trang.</p>
 <p align="center">
   <img src="assets/cabinet.PNG" alt="hi" width="840" height="540">
 </p>
