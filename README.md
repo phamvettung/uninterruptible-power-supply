@@ -368,8 +368,7 @@ $$
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot Framework. The client-side (front-end) is built on ReactJS. This project also uses the Redis database management system, storing key-value data in the cache of buffer memory, resulting in fast query speeds and reduce the number of requests that need to be processed by the main server.</p>
- <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh và giảm số lượng request tới Server chính.
-  .</p>
+ <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh và giảm số lượng request tới Server chính.</p>
 <p align="center">
   <img src="assets/tech_used.PNG" alt="hi" width="840" height="540">
 </p>
