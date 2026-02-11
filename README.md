@@ -429,7 +429,7 @@ $$
 <p>The Power Supply Diagram page displays the principle diagram of the distribution substation with the parameters of the connected devices in the circuit. It displays energy data and controls for opening/closing the ACBs.</p>
 <p>Trang Power Supply Diagram cung cấp sơ đồ nguyên lý của trạm phân phối và các thông số của thiết bị điện. Hiển thị giá trị năng lượng tức thời và có thể điều điều khiển AUTO/MANUAL đóng, ngắt 03 máy cắt.</p>
 <p align="center">
-  <img src="assets/dashboard2.PNG" alt="hi" width="840" height="540">
+  <img src="assets/dashboard3.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>8. Power Supply Diagram</h3>
