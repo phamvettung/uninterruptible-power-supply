@@ -506,6 +506,7 @@ $$
   <li>Spring Boot 3.5.6</li>
   <li>Tomcat server 10.1.31</li>
   <li>MySQL</li>
+  <li>Redis</li>
   <li>Spring Boot Security</li>
   <li>Spring Boot WebSocket</li>
   <li>Spring Data JPA</li>
