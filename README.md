@@ -460,7 +460,7 @@ $$
   <img src="assets/energy_check.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>9. Data Managerment</h3>
+<h3>12. Data Managerment</h3>
 <p>This page manages electrical cabinets, equipment, and users, with features for filtering, searching, and pagination.</p>
 <p>Quản lý dữ liệu về tủ điện, thiết bị và tài khoản. Cung cấp tính năng lọc, tìm kiếm dữ liệu kết hợp phân trang.</p>
 <p align="center">
