@@ -364,14 +364,14 @@ $$
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
  <p>Bộ điều khiển PLC truyền thông với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị ở hiện trường thông qua chuẩn truyền thông Modbus RS-485 và các cổng vào/ra số.</p>
 <p align="center">
-  <img src="assets/tech_diagram2.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_diagram3.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
  <p>Backend được xây dựng trên Spring Boot Framework. Frontend được xây dựng dựa trên thư viện ReactJS.</p>
 <p align="center">
-  <img src="assets/tech_structure3.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_used.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>3. Table structure in Database</h3>
@@ -392,7 +392,7 @@ $$
   <li>Bảng tokens: lưu trữ refresh token.</li>
 </ul>
 <p align="center">
-  <img src="assets/upssdb_diagram.PNG" alt="hi" width="840" height="540">
+  <img src="assets/upssdb.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>4. Authentication, Authorization and Security</h3>
@@ -425,26 +425,46 @@ $$
  }
 }
 ```
-
-<h3>7. Power Supply Diagram</h3>
+<h3>7. Dashboard</h3>
 <p>The Power Supply Diagram page displays the principle diagram of the distribution substation with the parameters of the connected devices in the circuit. It displays energy data and controls for opening/closing the ACBs.</p>
 <p>Trang Power Supply Diagram cung cấp sơ đồ nguyên lý của trạm phân phối và các thông số của thiết bị điện. Hiển thị giá trị năng lượng tức thời và có thể điều điều khiển AUTO/MANUAL đóng, ngắt 03 máy cắt.</p>
 <p align="center">
-  <img src="assets/power_supply_diagram.PNG" alt="hi" width="840" height="540">
+  <img src="assets/dashboard2.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>8. Real-time Trend</h3>
+<h3>8. Power Supply Diagram</h3>
+<p>The Power Supply Diagram page displays the principle diagram of the distribution substation with the parameters of the connected devices in the circuit. It displays energy data and controls for opening/closing the ACBs.</p>
+<p>Trang Power Supply Diagram cung cấp sơ đồ nguyên lý của trạm phân phối và các thông số của thiết bị điện. Hiển thị giá trị năng lượng tức thời và có thể điều điều khiển AUTO/MANUAL đóng, ngắt 03 máy cắt.</p>
+<p align="center">
+  <img src="assets/power_supply_diagram2.PNG" alt="hi" width="840" height="540">
+</p>
+
+<h3>9. Real-time Trend</h3>
 <p>The Real-time Trend page displays an energy chart.</p>
 <p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
 <p align="center">
-  <img src="assets/real_time_trend.PNG" alt="hi" width="840" height="540">
+  <img src="assets/real_time_trend4.PNG" alt="hi" width="840" height="540">
+</p>
+
+<h3>10. Analysis</h3>
+<p>The Real-time Trend page displays an energy chart.</p>
+<p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
+<p align="center">
+  <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
+</p>
+
+<h3>11. Alarm</h3>
+<p>The Real-time Trend page displays an energy chart.</p>
+<p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
+<p align="center">
+  <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>9. Data Managerment</h3>
 <p>This page manages electrical cabinets, equipment, and users, with features for filtering, searching, and pagination.</p>
 <p>Quản lý dữ liệu về tủ điện, thiết bị và tài khoản. Cung cấp tính năng lọc, tìm kiếm dữ liệu kết hợp phân trang.</p>
 <p align="center">
-  <img src="assets/cabinet_manager.PNG" alt="hi" width="840" height="540">
+  <img src="assets/cabinet.PNG" alt="hi" width="840" height="540">
 </p>
 
 </div>
