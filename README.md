@@ -369,7 +369,7 @@ $$
 
 <h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot. The client-side (front-end) is built on ReactJS.</p>
- <p>Backend được xây dựng trên Spring Boot Framework. Frontend được xây dựng dựa trên thư viện ReactJS.</p>
+ <p>Backend được xây dựng trên Spring Boot Framework. Frontend được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên bộ nhớ RAM, cho tốc độ truy vấn nhanh.</p>
 <p align="center">
   <img src="assets/tech_used.PNG" alt="hi" width="840" height="540">
 </p>
@@ -473,14 +473,14 @@ $$
 <div>
 
 <p align="center">
-  <a href="https://youtu.be/s6uQ-MICRmE">
+  <a href="https://www.youtube.com/watch?v=00z3u6Ofh6w&t=75s">
     <img src="assets/youtube-icon.png" width="300" alt="PC Demo">
   </a>
 </p>
 
 <h3>MOBILE FRIENDLY</h3>
 <p align="center">
-  <a href="https://youtube.com/shorts/Xq4Q5umekUE?feature=share">
+  <a href="https://www.youtube.com/watch?v=aQUQzm_U8xE">
     <img src="assets/youtube-icon.png" width="300" alt="Mobile Demo">
   </a>
 </p>
