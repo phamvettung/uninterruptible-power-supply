@@ -429,8 +429,8 @@ $$
 }
 ```
 <h3>7. Dashboard</h3>
-<p>The Power Supply Diagram page displays the principle diagram of the distribution substation with the parameters of the connected devices in the circuit. It displays energy data and controls for opening/closing the ACBs.</p>
-<p>Trang Power Supply Diagram cung cấp sơ đồ nguyên lý của trạm phân phối và các thông số của thiết bị điện. Hiển thị giá trị năng lượng tức thời và có thể điều điều khiển AUTO/MANUAL đóng, ngắt 03 máy cắt.</p>
+<p>The Dashboard page displays a monthly energy consumption breakdown for the year, yesterday's and today's energy usage, and the electricity bill amount.</p>
+<p>Trang Dashboard hiển thị bảng thống kê điện năng hàng tháng trong năm, mức tiêu thụ điện năng ngày hôm qua và trong ngày hôm nay, cùng với số tiền điện phải chi trả.</p>
 <p align="center">
   <img src="assets/dashboard3.PNG" alt="hi" width="840" height="540">
 </p>
@@ -443,15 +443,15 @@ $$
 </p>
 
 <h3>9. Real-time Trend</h3>
-<p>The Real-time Trend page displays an energy chart.</p>
-<p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
+<p>The Real-time Trend page displays energy graphs of loads: instantaneous current, instantaneous voltage, power consumption, and energy consumption over time.</p>
+<p>Trang Real-time Trend hiển thị biểu đồ năng lượng của từng Phân xưởng: Dòng điện tức thời, điện áp tức thời, công suất tiêu thụ và điện năng tiêu thụ theo thời gian thực.</p>
 <p align="center">
   <img src="assets/real_time_trend4.PNG" alt="hi" width="840" height="540">
 </p>
 
 <h3>10. Analysis</h3>
-<p>The Real-time Trend page displays an energy chart.</p>
-<p>Trang Real-time Trend hiển thị biểu đồ năng lượng của các phụ tải.</p>
+<p>The Analysis page provides a chart showing the daily energy consumption statistics for each workshop.</p>
+<p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
 <p align="center">
   <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
 </p>
