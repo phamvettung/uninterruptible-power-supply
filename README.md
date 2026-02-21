@@ -481,11 +481,31 @@ $$
 
 <h3>1. Hidden Markov Model</h3>
 <p>The Markov Model is a probabilistic model used to decrible the state of a system, where the future states depend only on the present, not on the past. Consider
-a sequence of state variables q1, q2, ..., qi:</p>
+a sequence of state variables q1, q2, ..., qi. Markov assumption: </p>
 
 $$
-P_{(q_i = \alpha | q_1, q_2, ..., q_i} = S_{XN} \times \sin \varphi_{XN} = 0.66 \times 287.48 = 189.95 kVAr
+P_{(q_i = \alpha | q_1, q_2, ..., q_i)} = P_{(q_i = \alpha | q_{i - 1})}
 $$
+
+<p>Components of the Markov Model (in project): </p>
+<p>- System states: </p>
+
+$$
+S = {S_1, S_2, S_3, S_4}
+$$
+
+<p>- Transition probability matrix: </p>
+
+$$
+P = \begin{bmatrix}
+P_{11} & P_{12} & P_{13} & P_{14} \\
+P_{21} & P_{22} & P_{23} & P_{24} \\
+P_{31} & P_{32} & P_{33} & P_{34} \\
+P_{41} & P_{42} & P_{43} & P_{44} \\
+\end{bmatrix}
+$$
+
+
 
 <p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
 <p align="center">
