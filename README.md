@@ -487,11 +487,11 @@ $$
 P_{(q_i = \alpha | q_1, q_2, ..., q_i)} = P_{(q_i = \alpha | q_{i - 1})}
 $$
 
-<p>Components of the Markov Model (in project): </p>
+<p>Components of the Markov Model: </p>
 <p>- System states: </p>
 
 $$
-S = {S_1, S_2, S_3, S_4}
+S = {S_1, S_2, ..., S_n}
 $$
 
 <ul>
@@ -504,32 +504,33 @@ $$
 <p>- Initial probability distribution: </p>
 
 $$
-\pi = \{ \pi_1, \pi_2, \pi_3, \pi_4 \}
+\pi = \{ \pi_1, \pi_2, ..., \pi_n \}
 $$
 
 <p>- Transition probability matrix: </p>
 
 $$
 P = \begin{bmatrix}
-P_{11} & P_{12} & P_{13} & P_{14} \\
-P_{21} & P_{22} & P_{23} & P_{24} \\
-P_{31} & P_{32} & P_{33} & P_{34} \\
-P_{41} & P_{42} & P_{43} & P_{44} \\
+P_{11} & P_{12} & ... & P_{1n} \\
+P_{21} & P_{22} & ... & P_{2n} \\
+... & ... & ... & ... \\
+P_{n1} & P_{n2} & ... & P_{nn} \\
 \end{bmatrix}
 $$
 
 <p>And: </p>
 
 $$
-\Sum_{(P_{ij})} = 1
+\sum_{(P_{ij})} = 1
 $$
 
 <h3>2. Forecast Service</h3>
-<p>The Analysis page provides a chart showing the daily energy consumption statistics for each load.</p>
-<p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
+<p>a. Dataset.</p>
 <p align="center">
-  <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
+  <img src="assets/state2.PNG" alt="hi" width="840" height="540">
 </p>
+
+
 
 # VI. DEMONSTRATION
 <div>
