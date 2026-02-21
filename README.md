@@ -517,11 +517,19 @@ $$
 \sum_{j=1}^{n} P_{ij} = 1
 $$
 
-<p>A Markov chain is useful when we need to compute a probability for a sequence
+<p> - A Markov chain is useful when we need to compute a probability for a sequence
 of observable events. In many cases, however, the events we are interested in are
 hidden: we don’t observe them directly.</p>
 <p>For example we don’t normally observe states in a UPS System. Rather, we see power comsumed, and must infer the states from the
 state sequence. We call the states hidden because they are not observed.</p>
+
+<p> - Hidden Markov models be featured by three fundamental problems:</p>
+<ul>
+  <li>Problem 1 (Likelihood): Given an HMM λ = (A,B) and an observation sequence O, determine the likelihood P(O|λ)</li>
+  <li>Problem 2 (Decoding): Given as input an HMM λ = (A,B) and a sequence of observations O = o1,o2,...,oT , find the most probable sequence of states Q = q1q2q3...qT.</li>
+  <li>Problem 3 (Training): Given an observation sequence O and the set of possible states in the HMM, learn the HMM parameters A and B.</li>
+</ul>
+
 
 <p>Example of a Markov</p>
 
