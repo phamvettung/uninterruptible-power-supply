@@ -8,9 +8,10 @@
 - [2. Design of Uninterruptible Power Supply for an Industrial Plant](#ii-design-of-uninterruptible-power-supply-for-an-industrial-plant)
 - [3. Design of Control cabinet](#iii-design-of-control-cabinet)
 - [4. SCADA for Power System](#iv-supervisory-control-and-data-acquisition-for-power-system)
-- [5. Demonstration](#v-demonstration)
-- [6. Requirements](#vi-requirements)
-- [7. References](#vii-references)
+- [5. HMMs and Forecast Service](#v-hidden-markov-model-&-forecast-service)
+- [6. Demonstration](#vi-demonstration)
+- [7. Requirements](#vii-requirements)
+- [8. References](#viii-references)
 
 # I. ABSTRACT
 <div>
@@ -369,7 +370,7 @@ $$
 <p>The server-side (back-end) is built on Spring Boot Framework. The client-side (front-end) is built on ReactJS. This project also uses the Redis database management system, storing key-value data in the cache of buffer memory, resulting in fast query speeds and reduce the number of requests that need to be processed by the main server.</p>
  <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh và giảm số lượng request tới Server chính.</p>
 
-<h3>3. Table structure in Database</h3>
+<h3>2. Table structure in Database</h3>
 <p>The database management system used in the project is MySQL, which includes 10 tables:</p>
 <ul>
   <li>Tables users, user_role, role: for security, authentication, and user authorization features.</li>
@@ -392,21 +393,21 @@ $$
   <img src="assets/upssdb.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>4. Authentication, Authorization and Security (Spring Security JWT)</h3>
+<h3>3. Authentication, Authorization and Security (Spring Security JWT)</h3>
 <p>SCADA software provides authentication features, user authorization and APIs security to protect applications from common threats such as CSRF, XSS, etc.</p>
 <p>Phần mềm SCADA cung cấp các tính năng xác thực (ai là user), phân quyền (bạn được phép làm gì) và bảo mật các API để bảo vệ ứng dụng khỏi các mối đe dọa phổ biến như CSRF, XSS, etc. </p>
 <p align="center">
   <img src="assets/security4.PNG" alt="hi" width="740" height="1040">
 </p>
 
-<h3>5. PLC-Server Protocol</h3>
+<h3>4. PLC-Server Protocol</h3>
 <p>A message used to transmit and receive data between a PLC and a server is defined by a byte array. Each message sent has a start (STX) and end character (ETX).</p>
 <p>Một bức điện có định dạng là mảng các byte dùng để truyền và nhận dữ liệu giữa PLC và Server. Mỗi bức điện gửi đi đều có kí tự bắt đầu (STX) và kí tự kết thúc (ETX).</p>
 <p align="center">
   <img src="assets/plc_api_spec2.jpg" alt="hi" width="840" height="540">
 </p>
 
-<h3>6. Server-User Protocol</h3>
+<h3>5. Server-User Protocol</h3>
 <p>The messages sent and received between the server and the user are in the format of a JSON like this.</p>
 <p>Thông điệp để truyền và nhận dữ liệu giữa Server và User có định dạng là một chuỗi JSON như bên dưới.</p>
 
@@ -422,35 +423,35 @@ $$
  }
 }
 ```
-<h3>7. Dashboard</h3>
+<h3>6. Dashboard</h3>
 <p>The Dashboard page displays a monthly energy consumption breakdown for the year, yesterday's and today's energy usage, and the electricity bill amount.</p>
 <p>Trang Dashboard hiển thị bảng thống kê điện năng hàng tháng trong năm, mức tiêu thụ điện năng ngày hôm qua và trong ngày hôm nay, cùng với số tiền điện phải chi trả. Giao diện SCADA còn cho phép cài đặt chế độ hiển thị sáng/tối, chọn ngôn ngữ hiển thị Tiếng Việt/Tiếng Anh.</p>
 <p align="center">
   <img src="assets/dashboard3.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>8. Power Supply Diagram</h3>
+<h3>7. Power Supply Diagram</h3>
 <p>The Power Supply Diagram page displays the principle diagram of the distribution substation with the parameters of the connected devices in the circuit. It displays energy data and controls for opening/closing the ACBs.</p>
 <p>Trang Power Supply Diagram cung cấp sơ đồ nguyên lý của trạm phân phối và các thông số của thiết bị điện. Hiển thị giá trị năng lượng tức thời và có thể điều điều khiển AUTO/MANUAL đóng, ngắt 03 máy cắt.</p>
 <p align="center">
   <img src="assets/power_supply_diagram2.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>9. Real-time Trend</h3>
+<h3>8. Real-time Trend</h3>
 <p>The Real-time Trend page displays energy graphs of loads: instantaneous current, instantaneous voltage, power consumption, and energy consumption over time.</p>
 <p>Trang Real-time Trend hiển thị biểu đồ năng lượng của từng Phân xưởng: Dòng điện tức thời, điện áp tức thời, công suất tiêu thụ và điện năng tiêu thụ theo thời gian thực.</p>
 <p align="center">
   <img src="assets/real_time_trend4.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>10. Analysis</h3>
+<h3>9. Analysis</h3>
 <p>The Analysis page provides a chart showing the daily energy consumption statistics for each load.</p>
 <p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
 <p align="center">
   <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>11. Alarm</h3>
+<h3>10. Alarm</h3>
 <p>The Alarm page allows users to set alarm thresholds for daily electricity usage. Specifically:</p>
 <ul>
   <li>[A] amount of electricity used up to this point.</li>
@@ -467,7 +468,7 @@ $$
   <img src="assets/energy_check.PNG" alt="hi" width="840" height="540">
 </p>
 
-<h3>12. Management</h3>
+<h3>11. Management</h3>
 <p>Manages data on the installed capacity of each load, parameters of selected ACBs and MCCBs, account settings, along with search functionality combined with pagination.</p>
 <p>Quản lý dữ liệu về công suất đặt của từng Phân xưởng, thông số của ACB, MCCB đã chọn, cài đặt tài khoản, cùng với chức năng tìm kiếm kết hợp phân trang.</p>
 <p align="center">
@@ -476,7 +477,9 @@ $$
 
 </div>
 
-# V. DEMONSTRATION
+# V. HIDDEN MARKOV MODEL & FORECAST SERVICE
+
+# VI. DEMONSTRATION
 <div>
 
 <p align="center">
@@ -494,7 +497,7 @@ $$
  
 </div>
 
-# VI. REQUIREMENTS
+# VII. REQUIREMENTS
 <div>
 <p>Back-end</p>
 <ul>
@@ -530,7 +533,7 @@ $$
 </ul>
 <p>Languages: Java, JavaScript, HTML & CSS, JSX</p>
 
-# VII. REFERENCES
+# VIII. REFERENCES
 [1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh
 
 
