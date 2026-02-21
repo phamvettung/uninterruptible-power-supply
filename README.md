@@ -494,6 +494,18 @@ $$
 S = {S_1, S_2, S_3, S_4}
 $$
 
+<ul>
+  <li>S1 - LOWLOAD</li>
+  <li>S2 - NORMAL</li>
+  <li>S3 - WARNING</li>
+  <li>S4 - OVERLOAD</li>
+</ul>
+
+<p>- Initial probability distribution: </p>
+$$
+\pi = { \pi_1, \pi_2, \pi_3, \pi_4 }
+$$
+
 <p>- Transition probability matrix: </p>
 
 $$
