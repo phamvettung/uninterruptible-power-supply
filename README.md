@@ -488,19 +488,19 @@ P_{(q_i = \alpha | q_1, q_2, ..., q_i)} = P_{(q_i = \alpha | q_{i - 1})}
 $$
 
 <p>Components of the Markov Model: </p>
-<p>- System states: </p>
+<p>- System states </p>
 
 $$
 S = \{ S_1, S_2, ..., S_n \}
 $$
 
-<p>- Initial probability distribution: </p>
+<p>- Initial probability distribution </p>
 
 $$
 \pi = \{ \pi_1, \pi_2, ..., \pi_n \}
 $$
 
-<p>- Transition probability matrix: </p>
+<p>- Transition probability matrix </p>
 
 $$
 P = \begin{bmatrix}
@@ -511,7 +511,7 @@ P_{n1} & P_{n2} & ... & P_{nn} \\
 \end{bmatrix}
 $$
 
-<p>And: </p>
+<p>And </p>
 
 $$
 \sum_{j=1}^{n} P_{ij} = 1
@@ -546,10 +546,9 @@ $$
 <h3>2. Forecast Service</h3>
 <p>a. Dataset</p>
 
-<p>Reference dataset for model training. Please, refer to: </p>
-https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
+<p>Reference dataset for model training. Please, refer to: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
 
-<p>b. UPSS consists of 03 states:</p>
+<p>b. The system consists of 03 states</p>
 <ul>
   <li>S1 - LOWLOAD</li>
   <li>S2 - NORMAL</li>
@@ -557,13 +556,13 @@ https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
   <li>S4 - OVERLOAD</li>
 </ul>
 
-<p>c. Initial probability distribution:</p>
+<p>c. Initial probability distribution</p>
 
 $$
 \pi = \{ 0, 1, 0, 0 \}
 $$
 
-<p>d. Transition probability matrix:</p>
+<p>d. Transition probability matrix</p>
 
 $$
 P = \begin{bmatrix}
@@ -580,12 +579,12 @@ $$
   <img src="assets/transmatrix.PNG" alt="hi" width="840" height="540">
 </p>
 
-<p>e. Predict hidden states & Anomaly delection:</p>
+<p>e. Predict hidden states & Anomaly delection</p>
 <p align="center">
   <img src="assets/state2.PNG" alt="hi" width="840" height="540">
 </p>
 
-<p>e. Forecast of energy consumption for the next 24 hours:</p>
+<p>e. Forecast of energy consumption for the next 24 hours</p>
 <p align="center">
   <img src="assets/forecast.PNG" alt="hi" width="840" height="540">
 </p>
