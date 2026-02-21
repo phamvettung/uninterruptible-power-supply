@@ -503,7 +503,7 @@ $$
 
 <p>- Initial probability distribution: </p>
 $$
-\pi = { \pi_1, \pi_2, \pi_3, \pi_4 }
+\pi = \{ \pi_1, \pi_2, \pi_3, \pi_4 \}
 $$
 
 <p>- Transition probability matrix: </p>
