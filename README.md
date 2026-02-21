@@ -359,19 +359,15 @@ $$
 <div>
   <p>The SCADA software used to control and monitor equipment remotely via a Web browser. Energy data is collected automatically in real time. All the technologies used and communication protocols are presented below.</p>
  <p>Phần mềm SCADA sử dụng để điều khiển, giám sát trạng thái của thiết bị từ xa trên trình duyệt Web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả bên dưới đây.</p>
-<h3>1. Diagram of Technology</h3>
+ 
+<h3>1. Diagram and Technologies used</h3>
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
  <p>Bộ điều khiển PLC truyền thông với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị ở hiện trường thông qua chuẩn truyền thông Modbus RS-485 và các cổng vào/ra số.</p>
 <p align="center">
-  <img src="assets/tech_diagram3.PNG" alt="hi" width="840" height="540">
+  <img src="assets/tech_diagram4.PNG" alt="hi" width="840" height="1000">
 </p>
-
-<h3>2. Technologies Used</h3>
 <p>The server-side (back-end) is built on Spring Boot Framework. The client-side (front-end) is built on ReactJS. This project also uses the Redis database management system, storing key-value data in the cache of buffer memory, resulting in fast query speeds and reduce the number of requests that need to be processed by the main server.</p>
  <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh và giảm số lượng request tới Server chính.</p>
-<p align="center">
-  <img src="assets/tech_used.PNG" alt="hi" width="840" height="540">
-</p>
 
 <h3>3. Table structure in Database</h3>
 <p>The database management system used in the project is MySQL, which includes 10 tables:</p>
