@@ -479,6 +479,26 @@ $$
 
 # V. HIDDEN MARKOV MODEL AND FORECAST SERVICE
 
+<h3>1. Hidden Markov Model</h3>
+<p>The Markov Model is a probabilistic model used to decrible the state of a system, where the future states depend only on the present, not on the past. Consider
+a sequence of state variables q1, q2, ..., qi:</p>
+
+$$
+P_{(q_i = \alpha | q_1, q_2, ..., q_i} = S_{XN} \times \sin \varphi_{XN} = 0.66 \times 287.48 = 189.95 kVAr
+$$
+
+<p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
+<p align="center">
+  <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
+</p>
+
+<h3>2. Forecast Service</h3>
+<p>The Analysis page provides a chart showing the daily energy consumption statistics for each load.</p>
+<p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
+<p align="center">
+  <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
+</p>
+
 # VI. DEMONSTRATION
 <div>
 
