@@ -521,7 +521,7 @@ $$
 <p>a. Dataset</p>
 https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
 
-<p>b. System states</p>
+<p>b. System states:</p>
 <ul>
   <li>S1 - LOWLOAD</li>
   <li>S2 - NORMAL</li>
@@ -546,7 +546,19 @@ P = \begin{bmatrix}
 \end{bmatrix}
 $$
 
+<p align="center">
+  <img src="assets/transmatrix.PNG" alt="hi" width="840" height="540">
+</p>
 
+<p>e. Predict hidden states & Anomaly delection:</p>
+<p align="center">
+  <img src="assets/state2.PNG" alt="hi" width="840" height="540">
+</p>
+
+<p>e. Forecasting energy consumption in next 24 hours:</p>
+<p align="center">
+  <img src="assets/forecast.PNG" alt="hi" width="840" height="540">
+</p>
 
 # VI. DEMONSTRATION
 <div>
