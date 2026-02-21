@@ -491,15 +491,8 @@ $$
 <p>- System states: </p>
 
 $$
-S = {S_1, S_2, ..., S_n}
+S = \{ S_1, S_2, ..., S_n \}
 $$
-
-<ul>
-  <li>S1 - LOWLOAD</li>
-  <li>S2 - NORMAL</li>
-  <li>S3 - WARNING</li>
-  <li>S4 - OVERLOAD</li>
-</ul>
 
 <p>- Initial probability distribution: </p>
 
@@ -525,10 +518,33 @@ $$
 $$
 
 <h3>2. Forecast Service</h3>
-<p>a. Dataset.</p>
-<p align="center">
-  <img src="assets/state2.PNG" alt="hi" width="840" height="540">
-</p>
+<p>a. Dataset</p>
+https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
+
+<p>b. System states</p>
+<ul>
+  <li>S1 - LOWLOAD</li>
+  <li>S2 - NORMAL</li>
+  <li>S3 - WARNING</li>
+  <li>S4 - OVERLOAD</li>
+</ul>
+
+<p>c. Initial probability distribution:</p>
+
+$$
+\pi = \{ 0, 1, 0, 0 \}
+$$
+
+<p>d. Transition probability matrix:</p>
+
+$$
+P = \begin{bmatrix}
+0.76102974 & 0.01277457 & 0.21681042 & 0.00938528 \\
+0.00495119 & 0.67550022 & 0.11157301 & 0.20797559 \\
+0.26248165 & 0.09087763 & 0.48913395 & 0.15750676 \\
+0.029213   & 0.08783518 & 0.21200698 & 0.67094483 \\
+\end{bmatrix}
+$$
 
 
 
