@@ -514,7 +514,25 @@ $$
 <p>And: </p>
 
 $$
-\sum_{j = 1, n}P_{ij} )} = 1
+\sum_{j=1}^{n} P_{ij} = 1
+$$
+
+<p>A Markov chain is useful when we need to compute a probability for a sequence
+of observable events. In many cases, however, the events we are interested in are
+hidden: we don’t observe them directly.</p>
+<p>For example we don’t normally observe states in a UPS System. Rather, we see power comsumed, and must infer the states from the
+state sequence. We call the states hidden because they are not observed.</p>
+
+<p>Example of a Markov</p>
+
+$$
+O = \{ 1kWh, 2kWh, 2kWh, 3kWh,... \}
+$$ 
+
+<p>Infer the states</p>
+
+$$
+S = \{ 1, 2, 2, 3,... \}
 $$
 
 <h3>2. Forecast Service</h3>
