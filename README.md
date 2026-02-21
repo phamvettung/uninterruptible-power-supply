@@ -367,8 +367,8 @@ $$
 <p align="center">
   <img src="assets/tech_diagram4.PNG" alt="hi" width="840" height="1000">
 </p>
-<p>The server-side (back-end) is built on Spring Boot Framework. The client-side (front-end) is built on ReactJS. This project also uses the Redis database management system, storing key-value data in the cache of buffer memory, resulting in fast query speeds and reduce the number of requests that need to be processed by the main server.</p>
- <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, lưu dữ liệu dạng key-value trên RAM, cho tốc độ truy vấn nhanh và giảm số lượng request tới Server chính.</p>
+<p>The server-side (back-end) is built on Spring Boot Framework. The client-side (front-end) is built on ReactJS. This project also uses the Redis database management system, resulting in fast query speeds and reduce the number of requests that need to be processed by the MySQL.</p>
+ <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, cho tốc độ truy vấn nhanh và giảm số lượng request bởi MySQL.</p>
 
 <h3>2. Table structure in Database</h3>
 <p>The database management system used in the project is MySQL, which includes 10 tables:</p>
