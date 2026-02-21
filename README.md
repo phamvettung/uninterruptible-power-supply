@@ -646,8 +646,8 @@ https://github.com/user-attachments/assets/55879641-cb0f-49be-9f60-3ca826b1b9fb
 <p>Languages: Java, JavaScript, HTML & CSS, JSX</p>
 
 # VIII. REFERENCES
-[1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh
-[2] Hidden Markov Model - Speech and Language Processing. Daniel Jurafsky & James H. Martin. https://web.stanford.edu/~jurafsky/slp3/A.pdf
+<p>[1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh</p>
+<p>[2] Hidden Markov Model - Speech and Language Processing. Daniel Jurafsky & James H. Martin. https://web.stanford.edu/~jurafsky/slp3/A.pdf</p>
 
 
 
