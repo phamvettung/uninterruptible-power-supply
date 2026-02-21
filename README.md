@@ -549,7 +549,7 @@ $$
 <p>Reference dataset for model training. Please, refer to: </p>
 https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
 
-<p>b. System states:</p>
+<p>b. UPSS consists of 03 states:</p>
 <ul>
   <li>S1 - LOWLOAD</li>
   <li>S2 - NORMAL</li>
@@ -573,6 +573,8 @@ P = \begin{bmatrix}
 0.029213   & 0.08783518 & 0.21200698 & 0.67094483 \\
 \end{bmatrix}
 $$
+
+<p>The transition probability matrix is ​​a graph where each state is represented by a vertex. The transition probability is expressed for each arc with two vertices.</p>
 
 <p align="center">
   <img src="assets/transmatrix.PNG" alt="hi" width="840" height="540">
