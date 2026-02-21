@@ -560,6 +560,10 @@ $$
   <img src="assets/forecast.PNG" alt="hi" width="840" height="540">
 </p>
 
+<p>f. Demo</p>
+
+https://github.com/user-attachments/assets/55879641-cb0f-49be-9f60-3ca826b1b9fb
+
 # VI. DEMONSTRATION
 <div>
 
