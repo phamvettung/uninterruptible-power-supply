@@ -502,6 +502,7 @@ $$
 </ul>
 
 <p>- Initial probability distribution: </p>
+
 $$
 \pi = \{ \pi_1, \pi_2, \pi_3, \pi_4 \}
 $$
@@ -517,12 +518,11 @@ P_{41} & P_{42} & P_{43} & P_{44} \\
 \end{bmatrix}
 $$
 
+<p>And: </p>
 
-
-<p>Trang Analysis cung cấp biểu đồ thống kê năng lượng tiêu thụ của từng Phân xưởng theo ngày.</p>
-<p align="center">
-  <img src="assets/energy_statistic.PNG" alt="hi" width="840" height="540">
-</p>
+$$
+\Sum_{(P_{ij})} = 1
+$$
 
 <h3>2. Forecast Service</h3>
 <p>The Analysis page provides a chart showing the daily energy consumption statistics for each load.</p>
