@@ -579,16 +579,34 @@ $$
   <img src="assets/transmatrix.PNG" alt="hi" width="840" height="540">
 </p>
 
-<p>e. Predict hidden states & Anomaly delection</p>
-<p>Looking at the state chart for 12 June 2026, it shows that the power system operates at a normal level during the night and morning hours (0h - 8h). The peak electricity consumption periods are from around noon (11h - 16h) and evening (18h - 22h). After 22h, electricity consumption is low, indicating a day-night cycle within the system.</p>
-<p>Nhìn vào biểu đồ trạng thái ngày 12-06-2026 cho thấy thời điểm từ đêm và sáng (0h - 8h) hệ thống điện hoạt động ở mức bình thường, từ khoảng trưa (11h - 16h) và chiều tối (18h - 22h) là khoảng thời gian cao điểm sử dụng điện. Sau 22h đêm là mức tiêu thụ điện thấp, cho thấy hệ thống có chu kì ngày và đêm.</p>
+<p>e. Analysis the electricity usage on 15 February 2026</p>
+<p>* Predict hidden states & Anomaly delection</p>
+<p>Looking at the state chart for 15 February 2026, it shows that the power system operates at a normal level during the night and morning hours (0h - 8h). The peak electricity consumption periods are from around noon (11h - 16h) and evening (18h - 22h). After 22h, electricity consumption is low, indicating a day-night cycle within the system.</p>
+<p>Nhìn vào biểu đồ trạng thái ngày 15-02-2026 cho thấy thời điểm từ đêm và sáng (0h - 8h) hệ thống điện hoạt động ở mức bình thường, từ khoảng trưa (11h - 16h) và chiều tối (18h - 22h) là khoảng thời gian cao điểm sử dụng điện. Sau 22h đêm là mức tiêu thụ điện thấp, cho thấy hệ thống có chu kì ngày và đêm.</p>
 <p align="center">
   <img src="assets/state2.PNG" alt="hi" width="840" height="540">
 </p>
 
-<p>e. Forecast of energy consumption for the next 24 hours</p>
+<p>* Forecast of energy consumption for the next 24 hours (16 February 2026)</p>
+<p>The model provides a forecast of electricity consumption over the next 24 hours. Looking at the graph, the trend is relatively flat, with an average electricity consumption of approximately 1.5 kW per hour.</p>
+<p>Mô hình đưa ra dự báo về mức tiêu thụ điện năng trong 24h tiếp theo, nhìn vào biểu đồ cho thấy đồ thị tương đối phẳng, mức tiêu thụ điện năng trung bình khoảng 1.5 kW mỗi giờ.</p>
 <p align="center">
   <img src="assets/forecast.PNG" alt="hi" width="840" height="540">
+</p>
+
+<p>f. Analysis the electricity usage on 16 February 2026</p>
+<p>* Predict hidden states & Anomaly delection</p>
+<p>Looking at the status chart for 16 February 2026, the system appears to be operating quite stably, with no peak periods during the day, as previously predicted.</p>
+<p>Nhìn vào biểu đồ trạng thái ngày 16-02-2026 cho thấy hệ thống hoạt động khá ổn định, không có khoảng thời gian cao điểm trong ngày, đúng theo dự báo trước đó.</p>
+<p align="center">
+  <img src="assets/state20260216.PNG" alt="hi" width="840" height="540">
+</p>
+
+<p>* Forecast of energy consumption for the next 24 hours (17 February 2026)</p>
+<p>Forecasts for the next 24 hours indicate that electricity consumption may peak at noon (10:00 AM, 17 February 2026) at 46.21 kWh and at night (7:00 PM, 17 February 2026) at 47.09 kWh.</p>
+<p>Dự báo trong 24h tiếp theo, mức sử dụng điện năng có thể đạt đỉnh điểm vào lúc trưa (10h 2026-02-17) với 46,21 kWh và tối (19h 17/02/2026) là 47,09 kWh.</p>
+<p align="center">
+  <img src="assets/forecast20260216.PNG" alt="hi" width="840" height="540">
 </p>
 
 https://github.com/user-attachments/assets/55879641-cb0f-49be-9f60-3ca826b1b9fb
