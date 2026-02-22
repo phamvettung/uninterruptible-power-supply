@@ -367,8 +367,8 @@ $$
 <p align="center">
   <img src="assets/tech_diagram4.PNG" alt="hi" width="800" height="1000">
 </p>
-<p>The Web Server-side (back-end) is built on Spring Boot Framework. Web application-side (front-end) is built on ReactJS. This project uses the MySQL and Redis database management system - resulting in fast query speeds and enhance the requests from Client. The system for analyzing and forecasting future energy usage is separated into a distinct microservice, which processes requests and returns results to the server.</p>
-<p>Web Server được xây dựng trên nền tảng Spring Boot và Web application được xây dựng dựa trên thư viện ReactJS. Dự án sử dụng hệ quản trị cơ sở dữ liệu MySQL và Redis - cho tốc độ truy vấn nhanh và tăng hiệu suất xử lý các yêu cầu từ Client. Hệ thống phân tích mức sử dụng điện năng và dự báo trong tương lai được tách thành microservice riêng, xử lý yêu cầu và trả về kết quả cho Server</p>
+<p>The Web Server-side (back-end) is built on Spring Boot Framework. Web application-side (front-end) is built on ReactJS. This project uses the MySQL and Redis database management system - resulting in fast query speeds and enhance the requests from Client. The system for analyzing and forecasting future energy usage is separated into a distinct microservice, which processes requests and returns results to the web server.</p>
+<p>Web Server được xây dựng trên nền tảng Spring Boot và Web application được xây dựng trên thư viện ReactJS. Dự án sử dụng hệ quản trị cơ sở dữ liệu MySQL và Redis - cho tốc độ truy vấn nhanh và tăng hiệu suất xử lý các yêu cầu từ Client. Hệ thống phân tích mức sử dụng điện năng và đưa ra dự báo trong tương lai được tách thành microservice riêng, xử lý yêu cầu và trả về kết quả cho Web Server</p>
 
 <h3>2. Table structure in Database</h3>
 <p>The database management system used in the project is MySQL, which includes 10 tables:</p>
