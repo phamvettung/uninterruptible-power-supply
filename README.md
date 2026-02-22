@@ -589,7 +589,7 @@ $$
 
 <p>* Forecast of energy consumption for the next 24 hours (16 February 2026)</p>
 <p>The model provides a forecast of electricity consumption over the next 24 hours. Looking at the graph, the trend is relatively flat, with an average electricity consumption of approximately 1.5 kW per hour.</p>
-<p>Mô hình đưa ra dự báo về mức tiêu thụ điện năng trong 24h tiếp theo, nhìn vào biểu đồ cho thấy đồ thị tương đối phẳng, mức tiêu thụ điện năng trung bình khoảng 1.5 kW mỗi giờ.</p>
+<p>Mô hình đưa ra dự báo về mức tiêu thụ điện năng trong 24h tiếp theo, nhìn vào biểu đồ cho thấy đồ thị tương đối phẳng, mức tiêu thụ điện năng ở mức thấp khoảng 1.5 kW mỗi giờ.</p>
 <p align="center">
   <img src="assets/forecast.PNG" alt="hi" width="840" height="540">
 </p>
