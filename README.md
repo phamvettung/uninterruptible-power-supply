@@ -8,7 +8,7 @@
 - [2. Design of Uninterruptible Power Supply for an Industrial Plant](#ii-design-of-uninterruptible-power-supply-for-an-industrial-plant)
 - [3. Design of Control cabinet](#iii-design-of-control-cabinet)
 - [4. SCADA for Power System](#iv-supervisory-control-and-data-acquisition-for-power-system)
-- [5. HMM and Forecast Service](#v-hidden-markov-model-and-forecast-service)
+- [5. HMM and Forecast Service](#v-hidden-markov-model-and-electricity-forecasting-service)
 - [6. Demonstration](#vi-demonstration)
 - [7. Requirements](#vii-requirements)
 - [8. References](#viii-references)
@@ -477,7 +477,7 @@ $$
 
 </div>
 
-# V. HIDDEN MARKOV MODEL AND FORECAST SERVICE
+# V. HIDDEN MARKOV MODEL AND ELECTRICITY USAGE FORECASTING SERVICE
 
 <h3>1. Hidden Markov Model</h3>
 <p>The Markov Model is a probabilistic model used to decrible the state of a system, where the future states depend only on the present, not on the past. Consider
@@ -543,7 +543,7 @@ $$
 </ul>
 
 
-<h3>2. Forecast Service</h3>
+<h3>2. Electricity usage forecasting service</h3>
 <p>a. Dataset</p>
 
 <p> We don't have enough data to train the model, so let reference dataset of UCI Machine Learning for model training. Please, refer to: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
