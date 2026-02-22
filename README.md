@@ -546,9 +546,10 @@ $$
 <h3>2. Forecast Service</h3>
 <p>a. Dataset</p>
 
-<p>Reference dataset for model training. Please, refer to: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
+<p> We don't have enough data to train the model, so let reference dataset of UCI Machine Learning for model training. Please, refer to: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
 <p>This project selected 03 electrical parameters for training the model, that is: Global active power, Voltage, Global intensity</p>
-<p>Dự án chọn 03 thông số điện để huấn luyện mô hình: Công suất tiêu thụ, điện áp, dòng điện mỗi giờ</p>
+<p>Vì không đủ dữ liệu để huấn luyện mô hình nên dự án tham khảo tập dữ liệu của UCI ML: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
+<p>Dự án chọn 03 thông số điện để huấn luyện mô hình: Công suất tiêu thụ, điện áp, dòng điện của toàn Xí nghiệp mỗi giờ</p>
 <p>b. The system consists of 03 states</p>
 <ul>
   <li>S1 - LOWLOAD</li>
@@ -671,6 +672,7 @@ https://github.com/user-attachments/assets/55879641-cb0f-49be-9f60-3ca826b1b9fb
 # VIII. REFERENCES
 <p>[1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh</p>
 <p>[2] Hidden Markov Model - Speech and Language Processing. Daniel Jurafsky & James H. Martin. https://web.stanford.edu/~jurafsky/slp3/A.pdf</p>
+<p>[3] Household Electric Power Consumption - UCI Machine Learning. https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
 
 
 
