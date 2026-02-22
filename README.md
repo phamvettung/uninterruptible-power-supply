@@ -365,7 +365,7 @@ $$
 <p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
  <p>Bộ điều khiển PLC truyền thông với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị ở hiện trường thông qua chuẩn truyền thông Modbus RS-485 và các cổng vào/ra số.</p>
 <p align="center">
-  <img src="assets/tech_diagram4.PNG" alt="hi" width="840" height="1000">
+  <img src="assets/tech_diagram4.PNG" alt="hi" width="800" height="1000">
 </p>
 <p>The server-side (back-end) is built on Spring Boot Framework. The client-side (front-end) is built on ReactJS. This project also uses the Redis database management system, resulting in fast query speeds and reduce the number of requests that need to be processed by the MySQL.</p>
  <p>Phía Back-end được xây dựng trên nền tảng Spring Boot và Front-end được xây dựng dựa trên thư viện ReactJS. Dự án cũng sử dụng hệ quản trị cơ sở dữ liệu Redis, cho tốc độ truy vấn nhanh và giảm số lượng request bởi MySQL.</p>
