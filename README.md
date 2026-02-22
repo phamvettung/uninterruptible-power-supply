@@ -8,7 +8,7 @@
 - [2. Design of Uninterruptible Power Supply for an Industrial Plant](#ii-design-of-uninterruptible-power-supply-for-an-industrial-plant)
 - [3. Design of Control cabinet](#iii-design-of-control-cabinet)
 - [4. SCADA for Power System](#iv-supervisory-control-and-data-acquisition-for-power-system)
-- [5. HMM and Forecast Service](#v-hidden-markov-model-and-electricity-forecasting-service)
+- [5. Hidden Markov Model and Forecast Service](#v-hidden-markov-model-and-electricity-usage-forecasting-service)
 - [6. Demonstration](#vi-demonstration)
 - [7. Requirements](#vii-requirements)
 - [8. References](#viii-references)
