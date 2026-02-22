@@ -672,12 +672,6 @@ https://github.com/user-attachments/assets/55879641-cb0f-49be-9f60-3ca826b1b9fb
   <li>joblib 1.5.3</li>
   <li>pydantic 2.12.5</li>
 </ul>
-<p>PLCs</p>
-<ul>
-  <li>PLC FX5UJ MITSUBISHI</li>
-  <li>Socket TCP programming</li>
-  <li>Modbus RS-485 communication</li>
-</ul>
 
 # VIII. REFERENCES
 <p>[1] Cuốn Bài tập Cung Cấp Điện - TS. Trần Quang Khánh</p>
