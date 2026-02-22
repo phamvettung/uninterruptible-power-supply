@@ -574,7 +574,9 @@ P = \begin{bmatrix}
 $$
 
 <p>The transition probability matrix is ​​a graph where each state is represented by a vertex. The transition probability is expressed for each arc with two vertices.</p>
-
+<p>Assuming the power system is currently in state S2 (NORMAL), the predicted probability of the next state being S1 (LOWLOAD) is approximately 0.49%, remaining in S2 is 67.55%, S3 (WARNING) is 11.15%, and S4 (OVERLOAD) is 20.79%.</p>
+<p>Ma trận chuyển trạng thái là một đồ thị mà mỗi trạng thái là một đỉnh của đồ thị và xác suất chuyển trạng thái là trọng số giữa 2 đỉnh</p>
+<p>Giả sử hệ thống điện đang ở trạng thái S2 (NORMAL), dự đoán trạng thái tiếp theo xác xuất để hệ thống chuyển sang S1 (LOWLOAD) là khoảng 0,49%, ở lại S2 67,55%, S3 (WARNING) là 11,15%, S4 (OVERLOAD) là 20,79%</p>
 <p align="center">
   <img src="assets/transmatrix.PNG" alt="hi" width="840" height="540">
 </p>
