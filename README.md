@@ -580,6 +580,8 @@ $$
 </p>
 
 <p>e. Predict hidden states & Anomaly delection</p>
+<p>Looking at the state chart for 12 June 2026, it shows that the power system operates at a normal level during the night and morning hours (0h - 8h). The peak electricity consumption periods are from around noon (11h - 16h) and evening (18h - 22h). After 22h, electricity consumption is low, indicating a day-night cycle within the system.</p>
+<p>Nhìn vào biểu đồ trạng thái ngày 12-06-2026 cho thấy thời điểm từ đêm và sáng (0h - 8h) hệ thống điện hoạt động ở mức bình thường, từ khoảng trưa (11h - 16h) và chiều tối (18h - 22h) là khoảng thời gian cao điểm sử dụng điện. Sau 22h đêm là mức tiêu thụ điện thấp, cho thấy hệ thống có chu kì ngày và đêm.</p>
 <p align="center">
   <img src="assets/state2.PNG" alt="hi" width="840" height="540">
 </p>
