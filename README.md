@@ -362,13 +362,15 @@ $$
  <p>Phần mềm SCADA sử dụng để điều khiển, giám sát trạng thái của thiết bị từ xa trên trình duyệt Web. Dữ liệu về năng lượng được thu thập tự động theo thời gian thực. Các công nghệ sử dụng và giao thức truyền thông được mô tả bên dưới đây.</p>
  
 <h3>1. Diagram and Technologies used</h3>
-<p>The PLC controller communicates with the server via a TCP socket (TCP/IP). The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to field devices via RS-485 communication standard and input/output ports.</p>
- <p>Bộ điều khiển PLC truyền thông với Server thông qua kết nối TCP/IP. Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị ở hiện trường thông qua chuẩn truyền thông Modbus RS-485 và các cổng vào/ra số.</p>
+<p>The PLC controller communicates with the web server via a TCP/IP. The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to Field equipment via RS-485 communication standard and input/output ports on PLC.</p>
+<p>The Web Server-side (back-end) is built on Spring Boot Framework. Web application-side (front-end) is built on ReactJS. This project uses the MySQL and Redis database management system - resulting in fast query speeds and enhance the requests from the Clients.</p>
+<p>The model for analyzing and forecasting is separated into a distinct microservice. It has 3 main functions: predict state, anomaly detection, forecast electricity usage in the future.</p>
+ <p>Bộ điều khiển PLC truyền thông với Web Server thông qua kết nối TCP/IP. Web Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị tại hiện trường thông qua chuẩn truyền thông Modbus RS-485 và các cổng vào/ra số.</p>
+<p>Web Server và Web application được xây dựng trên nền tảng Spring Boot và thư viện ReactJS. Hệ quản trị cơ sở dữ liệu MySQL và Redis - cho tốc độ truy vấn nhanh, tăng hiệu suất xử lý các yêu cầu của Client.</p>
+<p>Mô hình phân tích dữ liệu và dự báo được tách thành một microservice riêng. Có 3 chức năng chính: phân tích trạng thái hệ thống, phát hiện bất thường và dự báo mức sử dụng điện trong tương lai.</p>
 <p align="center">
   <img src="assets/tech_diagram4.PNG" alt="hi" width="800" height="1000">
 </p>
-<p>The Web Server-side (back-end) is built on Spring Boot Framework. Web application-side (front-end) is built on ReactJS. This project uses the MySQL and Redis database management system - resulting in fast query speeds and enhance the requests from Client. The system for analyzing and forecasting future energy usage is separated into a distinct microservice.</p>
-<p>Web Server được xây dựng trên nền tảng Spring Boot và Web application được xây dựng trên thư viện ReactJS. Dự án sử dụng hệ quản trị cơ sở dữ liệu MySQL và Redis - cho tốc độ truy vấn nhanh và tăng hiệu suất xử lý các yêu cầu từ Client. Hệ thống phân tích và dự báo mức sử dụng điện năng trong tương lai được tách thành một microservice hoạt động riêng biệt.</p>
 
 <h3>2. Table structure in Database</h3>
 <p>The database management system used in the project is MySQL, which includes 10 tables:</p>
