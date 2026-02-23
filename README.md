@@ -588,7 +588,7 @@ $$
 <p>e. Analysis the electricity usage on 15 February 2026</p>
 <p>* Predict hidden states & Anomaly delection</p>
 <p>Looking at the state chart for 15 February 2026, it shows that the power system operates at a normal level during the night and morning hours (0h - 8h). The peak electricity consumption periods are from around noon (11h - 16h) and evening (18h - 22h). After 22h, electricity consumption is low, indicating a day-night cycle within the system.</p>
-<p>Nhìn vào biểu đồ trạng thái ngày 15-02-2026 cho thấy thời điểm từ đêm và sáng (0h - 8h) hệ thống điện hoạt động ở mức bình thường, từ khoảng trưa (11h - 16h) và chiều tối (18h - 22h) là khoảng thời gian cao điểm sử dụng điện. Sau 22h đêm là mức tiêu thụ điện thấp, cho thấy hệ thống có chu kì ngày và đêm.</p>
+<p>Biểu đồ trạng thái ngày 15-02-2026 cho thấy thời điểm từ đêm và sáng (0h - 8h) hệ thống điện hoạt động ở mức bình thường, từ khoảng trưa (11h - 16h) và chiều tối (18h - 22h) là khoảng thời gian cao điểm sử dụng điện. Sau 22h đêm là mức tiêu thụ điện thấp, cho thấy hệ thống có chu kì ngày và đêm.</p>
 <p align="center">
   <img src="assets/state2.PNG" alt="hi" width="840" height="540">
 </p>
@@ -603,7 +603,7 @@ $$
 <p>f. Analysis the electricity usage on 16 February 2026</p>
 <p>* Predict hidden states & Anomaly delection</p>
 <p>Looking at the status chart for 16 February 2026, the system appears to be operating quite stably, with no peak periods during the day, as previously predicted.</p>
-<p>Nhìn vào biểu đồ trạng thái ngày 16-02-2026 cho thấy hệ thống hoạt động khá ổn định, không có khoảng thời gian cao điểm trong ngày, như dự báo trước đó.</p>
+<p>Biểu đồ trạng thái ngày 16-02-2026 cho thấy hệ thống hoạt động khá ổn định, không có khoảng thời gian cao điểm trong ngày, như dự báo trước đó.</p>
 <p align="center">
   <img src="assets/state20260216.PNG" alt="hi" width="840" height="540">
 </p>
