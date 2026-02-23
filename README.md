@@ -603,7 +603,7 @@ $$
 <p>f. Analysis the electricity usage on 16 February 2026</p>
 <p>* Predict hidden states & Anomaly delection</p>
 <p>Looking at the status chart for 16 February 2026, the system appears to be operating quite stably, with no peak periods during the day, as previously predicted.</p>
-<p>Nhìn vào biểu đồ trạng thái ngày 16-02-2026 cho thấy hệ thống hoạt động khá ổn định, không có khoảng thời gian cao điểm trong ngày, đúng theo dự báo trước đó.</p>
+<p>Nhìn vào biểu đồ trạng thái ngày 16-02-2026 cho thấy hệ thống hoạt động khá ổn định, không có khoảng thời gian cao điểm trong ngày, như dự báo trước đó.</p>
 <p align="center">
   <img src="assets/state20260216.PNG" alt="hi" width="840" height="540">
 </p>
