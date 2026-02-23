@@ -366,7 +366,7 @@ $$
 <p>The Web Server-side (back-end) is built on Spring Boot Framework. Web application-side (front-end) is built on ReactJS. This project uses the MySQL and Redis database management system - resulting in fast query speeds and enhance the requests from the Clients.</p>
 <p>The model for analyzing and forecasting is separated into a distinct microservice. It has 3 main functions: predict state, anomaly detection, forecast electricity usage in the future.</p>
  <p>Bộ điều khiển PLC truyền thông với Web Server thông qua kết nối TCP/IP. Web Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC kết nối tới các thiết bị tại hiện trường thông qua chuẩn truyền thông Modbus RS-485 và các cổng vào/ra số.</p>
-<p>Web Server và Web application được xây dựng trên nền tảng Spring Boot và thư viện ReactJS. Hệ quản trị cơ sở dữ liệu MySQL và Redis - cho tốc độ truy vấn nhanh, tăng hiệu suất xử lý các yêu cầu của Client.</p>
+<p>Web Server và Web application được xây dựng trên nền tảng Spring Boot và thư viện ReactJS. Dự án sử dụng Hệ quản trị cơ sở dữ liệu MySQL và Redis - giúp cho tốc độ truy vấn nhanh, tăng hiệu suất xử lý các yêu cầu của Client.</p>
 <p>Mô hình phân tích dữ liệu và dự báo được tách thành một microservice riêng. Có 3 chức năng chính: phân tích trạng thái hệ thống, phát hiện bất thường và dự báo mức sử dụng điện trong tương lai.</p>
 <p align="center">
   <img src="assets/tech_diagram4.PNG" alt="hi" width="800" height="1000">
