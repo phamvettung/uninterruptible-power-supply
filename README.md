@@ -551,7 +551,7 @@ $$
 <p> We don't have enough data to train the model, so let reference dataset of UCI Machine Learning for model training. Please, refer to: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
 <p>This project selected 03 electrical parameters for training the model, that is: Global active power, Voltage, Global intensity</p>
 <p>Vì không đủ dữ liệu để huấn luyện mô hình nên dự án tham khảo tập dữ liệu của UCI ML: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set</p>
-<p>Dự án chọn 03 thông số điện để huấn luyện mô hình: Công suất tiêu thụ, điện áp, dòng điện của toàn Xí nghiệp mỗi giờ</p>
+<p>Chọn 03 thông số điện để huấn luyện mô hình: Công suất tiêu thụ, điện áp, dòng điện của toàn Xí nghiệp mỗi giờ</p>
 <p>b. The system consists of 03 states</p>
 <ul>
   <li>S1 - LOWLOAD</li>
