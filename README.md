@@ -369,7 +369,7 @@ $$
 <p>Web Server và Web application được xây dựng trên nền tảng Spring Boot và thư viện ReactJS. Dự án sử dụng Hệ quản trị cơ sở dữ liệu MySQL và Redis - giúp cho tốc độ truy vấn nhanh, tăng hiệu suất xử lý các yêu cầu của Client.</p>
 <p>Mô hình phân tích dữ liệu và dự báo được tách thành một microservice riêng. Có 3 chức năng chính: phân tích trạng thái hệ thống, phát hiện bất thường và dự báo mức sử dụng điện trong tương lai.</p>
 <p align="center">
-  <img src="assets/tech_diagram5.PNG" alt="hi" width="800" height="1000">
+  <img src="assets/tech_diagram6.PNG" alt="hi" width="800" height="1000">
 </p>
 
 <h3>2. Table structure in Database</h3>
