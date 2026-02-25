@@ -546,7 +546,7 @@ $$
 
 <p>Mô hình Hidden Markov được đặc trưng bởi 3 bài toán chính:</p>
 <ul>
-  <li>Bài toán 1 (Likelihood): Cho ma trận chuyển trạng thái A và ma trận phát xạ B và một chuỗi các quan sát O, rồi sau đó tính likelihood.</li>
+  <li>Bài toán 1 (Likelihood): Cho ma trận chuyển trạng thái A và ma trận phát xạ B và một chuỗi các quan sát O, rồi sau đó tính likelihood. Dùng để so sánh giữa các mô hình, chọn ra mô hình có likelihood cao nhất</li>
   <li>Bài toán 2 (Decoding): Cho ma trận A và ma trận B và một chuỗi các quan sát O = o1,o2,...,oT , tìm chuỗi trạng thái ẩn tốt nhất, Q = q1q2q3...qT.</li>
   <li>Problem 3 (Training): Cho chuỗi các quan sát O, học ma trận A, B, π. Ma trận A và B sau đó được dùng cho bài toán 1 và 2.</li>
 </ul>
