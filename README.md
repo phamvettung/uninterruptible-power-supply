@@ -365,7 +365,7 @@ $$
 <p>The PLC controller communicates with the web server via a TCP/IP. The server provides APIs and WebSockets for the users side to send and receive data.The PLC connects to Field equipment via RS-485 communication standard and input/output ports on PLC.</p>
 <p>The Web Server-side (back-end) is built on Spring Boot Framework. Web application-side (front-end) is built on ReactJS. This project uses the MySQL and Redis database management system - resulting in fast query speeds and enhance the requests from the Clients.</p>
 <p>The model for analyzing and forecasting is separated into a distinct microservice. It has 3 main functions: predict state, anomaly detection, forecast electricity usage in the future.</p>
- <p>PLC kết nối tới Web Server thông qua TCP/IP. Web Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC truyền thông với các đồng hồ điện sử dụng Modbus RS-485 và đấu nối tới các tiếp điểm phụ của ACB, MCCB trên các cổng input/output của PLC.</p>
+ <p>PLC kết nối tới Web Server thông qua TCP/IP. Web Server cung cấp các API và WebSocket để User có thể gửi và nhận dữ liệu. PLC truyền thông với các đồng hồ điện sử dụng Modbus RS-485 và kết nối tới các tiếp điểm phụ của ACB, MCCB thông qua các cổng input, output của PLC.</p>
 <p>Web Server và Web application được xây dựng trên nền tảng Spring Boot và thư viện ReactJS. Dự án sử dụng Hệ quản trị cơ sở dữ liệu MySQL và Redis - giúp cho tốc độ truy vấn nhanh, tăng hiệu suất xử lý các yêu cầu của Client.</p>
 <p>Mô hình phân tích dữ liệu và dự báo được tách thành một microservice riêng. Có 3 chức năng chính: phân tích trạng thái hệ thống, phát hiện bất thường và dự báo mức sử dụng điện trong tương lai.</p>
 <p align="center">
